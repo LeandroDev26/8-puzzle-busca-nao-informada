@@ -93,7 +93,7 @@ void imprimirEstado(const array<int, 9>& estado)
 int main()
 {
 
-    array<int, 9> inicio = {1, 2, 3, 4, 5, 0, 7, 8, 6};
+    array<int, 9> inicio = {0,1, 2, 3, 4, 5, 6, 7, 8};
     array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
     auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
@@ -111,6 +111,8 @@ int main()
 
         if (atual->estado == objetivo) {
          cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
+
+           cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
 
             vector<shared_ptr<No>> caminho_vitoria;
             shared_ptr<No> rastreador = atual;
