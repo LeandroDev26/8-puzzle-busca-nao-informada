@@ -62,7 +62,7 @@ vector<array<int,9>> gerarSucessores(array<int,9> estado)
     return sucessores;
 }
 
-int main()
+/*int main()
 {
 
     array<int,9> estado = {0,1,2,3,4,5,6,7,8}; // 0 é o vazio
@@ -73,3 +73,4 @@ int main()
     cout << "Total de vizinhos gerados: " << vizinhos.size() << "\n";
 
 }
+*/
