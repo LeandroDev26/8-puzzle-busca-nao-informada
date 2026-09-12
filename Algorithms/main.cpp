@@ -1,12 +1,37 @@
 #include <iostream>
-#include <array>
-#include <utility>
 #include <vector>
+#include <array>
+#include <queue>
+#include <unordered_set>
+#include <memory>
+#include <string>
+#include <utility>
+
 using namespace std;
 
-vector<array<int,9>> gerarSucessores(array<int,9> estado)
+// Estrutura do Nó
+struct No
 {
-// encontrar a posição do 0
+    array<int,9> estado;
+    shared_ptr<No> pai;
+    string acao;
+    int profundidade;
+};
+
+// Hash atráves de conversão estado para string
+string paraChave(const array<int,9>& estado)
+{
+    string s = "";
+    for (int v : estado)
+    {
+        s += (char)(v + '0');
+    }
+    return s;
+}
+
+// Função gerarSucessores
+vector<pair<array<int,9>, string>> gerarSucessores(array<int,9> estado)
+{
     int pos = -1;
     for (int i = 0; i < 9; i++)
     {
@@ -20,57 +45,90 @@ vector<array<int,9>> gerarSucessores(array<int,9> estado)
     int linha = pos / 3;
     int coluna = pos % 3;
 
-    cout << "Zero esta na posicao " << pos
-         << " (linha " << linha << ", coluna " << coluna << ")\n";
-
-    vector<array<int,9>> sucessores;
+    vector<pair<array<int,9>, string>> sucessores;
 
     if(linha > 0)
     {
-        // int cima = linha - 1;
         int indicelinearCima = (linha - 1) * 3 + coluna;
         array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearCima]);
-        sucessores.push_back(novo_estado);
-
+        sucessores.push_back({novo_estado, "Mover zero para Cima"});
     }
     if(linha < 2)
     {
-        //int baixo = linha + 1;
         int indicelinearBaixo = (linha + 1) * 3 + coluna;
         array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearBaixo]);
-        sucessores.push_back(novo_estado);
+        sucessores.push_back({novo_estado, "Mover zero para Baixo"});
     }
     if(coluna > 0)
     {
-        // int esquerda = coluna - 1;
         int indicelinearEsquerda = linha * 3 + (coluna - 1);
         array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearEsquerda]);
-        sucessores.push_back(novo_estado);
+        sucessores.push_back({novo_estado, "Mover zero para Esquerda"});
     }
     if(coluna < 2 )
     {
-        //int direita = coluna + 1;
         int indicelinearDireita = linha * 3 + (coluna + 1);
         array<int,9> novo_estado = estado;
         swap(novo_estado[pos], novo_estado[indicelinearDireita]);
-        sucessores.push_back(novo_estado);
+        sucessores.push_back({novo_estado, "Mover zero para Direita"});
     }
 
     return sucessores;
 }
 
-/*int main()
+// Função auxiliar para visualizar a matriz 3x3
+void imprimirEstado(const array<int, 9>& estado)
+{
+    for (int i = 0; i < 9; i++)
+    {
+        cout << estado[i] << " ";
+        if (i % 3 == 2) cout << "\n";
+    }
+    cout << "------\n";
+}
+
+int main()
 {
 
-    array<int,9> estado = {0,1,2,3,4,5,6,7,8}; // 0 é o vazio
-    // outro exemplo de teste 0,1,2,3,4,5,6,7,8 saída esperada : 2
+    array<int, 9> inicio = {1, 2, 3, 4, 5, 0, 7, 8, 6};
+    array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
-    vector<array<int,9>> vizinhos = gerarSucessores(estado);
+    auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
 
-    cout << "Total de vizinhos gerados: " << vizinhos.size() << "\n";
+    queue<shared_ptr<No>> fronteira;
 
+    unordered_set<string> visitados;
+
+    fronteira.push(raiz);
+    visitados.insert(paraChave(inicio));
+
+    while (!fronteira.empty()) {
+        shared_ptr<No> atual = fronteira.front();
+        fronteira.pop();
+
+        if (atual->estado == objetivo) {
+            cout << "Objetivo encontrado!\n";
+            break;
+        }
+
+        auto vizinhos = gerarSucessores(atual->estado);
+        for (auto& vizinho : vizinhos) {
+            array<int, 9> estado_sucessor = vizinho.first;
+            string acao = vizinho.second;
+
+            string chave_sucessor = paraChave(estado_sucessor);
+
+
+            if (visitados.find(chave_sucessor) == visitados.end()) {
+                visitados.insert(chave_sucessor);
+
+                auto filho = make_shared<No>(No{estado_sucessor, atual, acao, atual->profundidade + 1});
+                fronteira.push(filho);
+            }
+        }
+    }
+    return 0;
 }
-*/
