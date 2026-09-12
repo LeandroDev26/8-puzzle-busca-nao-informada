@@ -126,7 +126,7 @@ int main()
                 imprimirEstado((*it)->estado);
             }
 
-            break; // Encerra a busca
+            break;
         }
 
         auto vizinhos = gerarSucessores(atual->estado);
