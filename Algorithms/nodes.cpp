@@ -5,7 +5,7 @@
 using namespace std;
 
 struct No {
-    int valor;
+    array<int,9> estado;
     shared_ptr<No> pai;
     string acao;
     int profundidade;
