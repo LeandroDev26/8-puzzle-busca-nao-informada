@@ -1,0 +1,852 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+1000-Hello World\!/1000-Hello World\!.cbp
+Exercises-Beecrowd/1000-Hello World\!/1000-Hello World\!.cbp
+Exercises-Beecrowd/1000-Hello World\!/1000-Hello World\!.layout
+Exercises-Beecrowd/1000-Hello World/1000-Hello World.cbp
+Exercises-Beecrowd/1000-Hello World/1000-Hello World.layout
+Exercises-Beecrowd/1001-Extremamente Básico/1001-Extremamente Básico.depend
+Exercises-Beecrowd/1001-Extremamente Básico/1001-Extremamente Básico.cbp
+Exercises-Beecrowd/1001-Extremamente Básico/1001-Extremamente Básico.layout
+Exercises-Beecrowd/1002-Área do Círculo/1002-Área do Círculo.cbp
+Exercises-Beecrowd/1002-Área do Círculo/1002-Área do Círculo.depend
+Exercises-Beecrowd/1002-Área do Círculo/1002-Área do Círculo.layout
+Exercises-Beecrowd/1003 - Soma Simples/1003 - Soma Simples.cbp
+Exercises-Beecrowd/1003 - Soma Simples/1003 - Soma Simples.depend
+Exercises-Beecrowd/1003-Soma Simples/1003 - Soma Simples.cbp
+Exercises-Beecrowd/1003-Soma Simples/1003 - Soma Simples.depend
+Exercises-Beecrowd/1003-Soma Simples/1003 - Soma Simples.layout
+Exercises-Beecrowd/1003 - Soma Simples/main.cpp
+Exercises-Beecrowd/1003 - Soma Simples/main.cpp
+Exercises-Beecrowd/1000 - Hello World/1000-Hello World.cbp
+Exercises-Beecrowd/1000 - Hello World/1000-Hello World.layout
+Exercises-Beecrowd/1001 - Extremamente Básico/1001-Extremamente Básico.cbp
+Exercises-Beecrowd/1001 - Extremamente Básico/1001-Extremamente Básico.depend
+Exercises-Beecrowd/1001 - Extremamente Básico/1001-Extremamente Básico.layout
+Exercises-Beecrowd/1002 - Área do Círculo/1002-Área do Círculo.cbp
+Exercises-Beecrowd/1002 - Área do Círculo/1002-Área do Círculo.depend
+Exercises-Beecrowd/1002 - Área do Círculo/1002-Área do Círculo.layout
+Exercises-Beecrowd/1003 - Soma Simples/1003 - Soma Simples.layout
+Exercises-Beecrowd/1003 -Soma Simples/1003 - Soma Simples.cbp
+Exercises-Beecrowd/1003 -Soma Simples/1003 - Soma Simples.depend
+Exercises-Beecrowd/1003 -Soma Simples/1003 - Soma Simples.layout
+Exercises-Beecrowd/1003  - Soma Simples/1003  - Soma Simples.cbp
+Exercises-Beecrowd/1003  - Soma Simples/1003  - Soma Simples.layout
+Exercises-Beecrowd/1004 - Produto Simples/1004 - Produto Simples.cbp
+Exercises-Beecrowd/1004 - Produto Simples/1004 - Produto Simples.depend
+Exercises-Beecrowd/1004 - Produto Simples/1004 - Produto Simples.layout
+Exercises-Beecrowd/1005 - Média 1/1005 - Média 1.cbp
+Exercises-Beecrowd/1005 - Média 1/1005 - Média 1.layout
+Exercises-Beecrowd/1006 - Média 2/1006 - Média 2.depend
+Exercises-Beecrowd/1006 - Média 2/1006 - Média 2.cbp
+Exercises-Beecrowd/1006 - Média 2/1006 - Média 2.layout
+Exercises-Beecrowd/1007 - Diferença/1007 - Diferença.cbp
+Exercises-Beecrowd/1007 - Diferença/1007 - Diferença.layout
+Exercises-Beecrowd/1008 - Salário/1008 - Salário.cbp
+Exercises-Beecrowd/1008 - Salário/1008 - Salário.depend
+Exercises-Beecrowd/1008 - Salário/1008 - Salário.layout
+Exercises-Beecrowd/1009 - Salário com Bônus/1009 - Salário com Bônus.cbp
+Exercises-Beecrowd/1009 - Salário com Bônus/1009 - Salário com Bônus.depend
+Exercises-Beecrowd/1009 - Salário com Bônus/1009 - Salário com Bônus.layout
+Exercises-Beecrowd/1010 - Cálculo Simples/1010 - Cálculo Simples.cbp
+Exercises-Beecrowd/1010 - Cálculo Simples/1010 - Cálculo Simples.depend
+Exercises-Beecrowd/1010 - Cálculo Simples/1010 - Cálculo Simples.layout
+Exercises-Beecrowd/1011 - Esfera/1011 - Esfera.cbp
+Exercises-Beecrowd/1011 - Esfera/1011 - Esfera.depend
+Exercises-Beecrowd/1011 - Esfera/1011 - Esfera.layout
+Exercises-Beecrowd/1012 - Área/1012 - Área.cbp
+Exercises-Beecrowd/1012 - Área/1012 - Área.layout
+Exercises-Beecrowd/1013 - O Maior/1013 - O Maior.cbp
+Exercises-Beecrowd/1014 - Consumo/1014 - Consumo.cbp
+Exercises-Beecrowd/1015 - Distância Entre Dois Pontos/1015 - Distância Entre Dois Pontos.cbp
+Exercises-Beecrowd/1016 - Distância/1016 - Distância.cbp
+Exercises-Beecrowd/1017 - Gasto de Combustível/1017 - Gasto de Combustível.cbp
+Exercises-Beecrowd/1018 - Cédulas/1018 - Cédulas.cbp
+Exercises-Beecrowd/1019 - Conversão de Tempo/1019 - Conversão de Tempo.cbp
+Exercises-Beecrowd/1020 - Idade em Dias/1020 - Idade em Dias.cbp
+Exercises-Beecrowd/1013 - O Maior/1013 - O Maior.layout
+Exercises-Beecrowd/1014 - Consumo/1014 - Consumo.layout
+Exercises-Beecrowd/1015 - Distância Entre Dois Pontos/1015 - Distância Entre Dois Pontos.layout
+Exercises-Beecrowd/1016 - Distância/1016 - Distância.layout
+Exercises-Beecrowd/1017 - Gasto de Combustível/1017 - Gasto de Combustível.layout
+Exercises-Beecrowd/1018 - Cédulas/1018 - Cédulas.layout
+Exercises-Beecrowd/1019 - Conversão de Tempo/1019 - Conversão de Tempo.layout
+Exercises-Beecrowd/1020 - Idade em Dias/1020 - Idade em Dias.layout
+Exercises-Beecrowd/1021 - Notas e Moedas/1021 - Notas e Moedas.cbp
+Exercises-Beecrowd/1021 - Notas e Moedas/1021 - Notas e Moedas.depend
+Exercises-Beecrowd/1022 - TDA Racional/1022 - TDA Racional.cbp
+Exercises-Beecrowd/1002 - Area do Circulo/1002-Área do Círculo.layout
+Exercises-Beecrowd/1002 - Area do Circulo/1002-Área do Círculo.depend
+Exercises-Beecrowd/1002 - Area do Circulo/1002-Área do Círculo.cbp
+Exercises-Beecrowd/1001 - Extremamente Basico/1001-Extremamente Básico.cbp
+Exercises-Beecrowd/1001 - Extremamente Basico/1001-Extremamente Básico.depend
+Exercises-Beecrowd/1001 - Extremamente Basico/1001-Extremamente Básico.layout
+Exercises-Beecrowd/1005 - Media 1/1005 - Média 1.cbp
+Exercises-Beecrowd/1005 - Media 1/1005 - Média 1.layout
+Exercises-Beecrowd/1006 - Media 2/1006 - Média 2.cbp
+Exercises-Beecrowd/1006 - Media 2/1006 - Média 2.depend
+Exercises-Beecrowd/1006 - Media 2/1006 - Média 2.layout
+Exercises-Beecrowd/1007 - Diferenca/1007 - Diferença.cbp
+Exercises-Beecrowd/1007 - Diferenca/1007 - Diferença.layout
+Exercises-Beecrowd/1008 - Salario/1008 - Salário.cbp
+Exercises-Beecrowd/1008 - Salario/1008 - Salário.depend
+Exercises-Beecrowd/1008 - Salario/1008 - Salário.layout
+Exercises-Beecrowd/1009 - Salario com Bonus/1009 - Salário com Bônus.cbp
+Exercises-Beecrowd/1009 - Salario com Bonus/1009 - Salário com Bônus.depend
+Exercises-Beecrowd/1009 - Salario com Bonus/1009 - Salário com Bônus.layout
+Exercises-Beecrowd/1010 - Calculo Simples/1010 - Cálculo Simples.cbp
+Exercises-Beecrowd/1010 - Calculo Simples/1010 - Cálculo Simples.depend
+Exercises-Beecrowd/1010 - Calculo Simples/1010 - Cálculo Simples.layout
+Exercises-Beecrowd/1012 - Area/1012 - Área.cbp
+Exercises-Beecrowd/1012 - Area/1012 - Área.layout
+Exercises-Beecrowd/1015 - Distancia Entre Dois Pontos/1015 - Distância Entre Dois Pontos.cbp
+Exercises-Beecrowd/1015 - Distancia Entre Dois Pontos/1015 - Distância Entre Dois Pontos.layout
+Exercises-Beecrowd/1016 - Distancia/1016 - Distância.cbp
+Exercises-Beecrowd/1016 - Distancia/1016 - Distância.layout
+Exercises-Beecrowd/1018 - Cedulas/1018 - Cédulas.cbp
+Exercises-Beecrowd/1018 - Cedulas/1018 - Cédulas.layout
+Exercises-Beecrowd/1019 - Conversao de Tempo/1019 - Conversão de Tempo.cbp
+Exercises-Beecrowd/1019 - Conversao de Tempo/1019 - Conversão de Tempo.layout
+Exercises-Beecrowd/1017 - Gasto de Combustivel/1017 - Gasto de Combustível.layout
+Exercises-Beecrowd/1017 - Gasto de Combustivel/1017 - Gasto de Combustível.cbp
+Exercises-Beecrowd/1035 - Teste de Selecao 1/1035 - Teste de Selecao 1.cbp
+Exercises-Beecrowd/1036 - Formula de Bhaskara/1036 - Formula de Bhaskara.cbp
+Exercises-Beecrowd/1037 - Intervalo/1037 - Intervalo.cbp
+Exercises-Beecrowd/1038 - Lanche/1038 - Lanche.cbp
+Exercises-Beecrowd/1040 - Media 3/1040 - Media 3.cbp
+Exercises-Beecrowd/1041 - Coordenadas de um Ponto/1041 - Coordenadas de um Ponto.cbp
+Exercises-Beecrowd/1042 - Sort Simples/1042 - Sort Simples.cbp
+Exercises-Beecrowd/1042 - Sort Simples/1042 - Sort Simples.layout
+Exercises-Beecrowd/1021 - Notas e Moedas/1021 - Notas e Moedas.layout
+Exercises-Beecrowd/1022 - TDA Racional/1022 - TDA Racional.layout
+Exercises-Beecrowd/1035 - Teste de Selecao 1/1035 - Teste de Selecao 1.layout
+Exercises-Beecrowd/1036 - Formula de Bhaskara/1036 - Formula de Bhaskara.layout
+Exercises-Beecrowd/1037 - Intervalo/1037 - Intervalo.layout
+Exercises-Beecrowd/1038 - Lanche/1038 - Lanche.layout
+Exercises-Beecrowd/1040 - Media 3/1040 - Media 3.layout
+Exercises-Beecrowd/1041 - Coordenadas de um Ponto/1041 - Coordenadas de um Ponto.layout
+Exercises-Beecrowd/1043 - Triangulo/1043 - Triangulo.cbp
+Exercises-Beecrowd/1043 - Triangulo/1043 - Triangulo.layout
+Exercises-Beecrowd/1044 - multiplos/1044 - multiplos.cbp
+Exercises-Beecrowd/1044 - multiplos/1044 - multiplos.layout
+Exercises-Beecrowd/1045 - Tipos de Triangulo/1045 - Tipos de Triangulo.cbp
+Exercises-Beecrowd/1045 - Tipos de Triangulo/1045 - Tipos de Triangulo.layout
+Exercises-Beecrowd/1045 - Tipos de Triangulo/1045 - Tipos de Triangulo.depend
+Exercises-Beecrowd/1046 - Tempo de Jogo/1046 - Tempo de Jogo.cbp
+Exercises-Beecrowd/1046 - Tempo de Jogo/1046 - Tempo de Jogo.depend
+Exercises-Beecrowd/1046 - Tempo de Jogo/1046 - Tempo de Jogo.layout
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.cbp
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.depend
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.depend
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.depend
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.depend
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.depend
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.layout
+Exercises-Beecrowd/1047 - Tempo de Jogo com Minutos/1047 - Tempo de Jogo com Minutos.depend
+Exercises-Beecrowd/1048 - Aumento de Salario/1048 - Aumento de Salario.layout
+Exercises-Beecrowd/1049 - Animal/1049 - Animal.cbp
+Exercises-Beecrowd/1049 - Animal/1049 - Animal.layout
+Exercises-Beecrowd/1050 - DDD/1050 - DDD.cbp
+Exercises-Beecrowd/1050 - DDD/1050 - DDD.layout
+Exercises-Beecrowd/1051 - Imposto de Renda/1051 - Imposto de Renda.cbp
+Exercises-Beecrowd/1051 - Imposto de Renda/1051 - Imposto de Renda.depend
+Exercises-Beecrowd/1051 - Imposto de Renda/1051 - Imposto de Renda.layout
+Exercises-Beecrowd/1052 - Mes/1052 - Mes.cbp
+Exercises-Beecrowd/1052 - Mes/1052 - Mes.layout
+Exercises-Beecrowd/1059 - Numeros Pares/1059 - Numeros Pares.cbp
+Exercises-Beecrowd/1059 - Numeros Pares/1059 - Numeros Pares.depend
+Exercises-Beecrowd/1059 - Numeros Pares/1059 - Numeros Pares.layout
+Exercises-Beecrowd/1060 - Numeros Positivos/1060 - Numeros Positivos.cbp
+Exercises-Beecrowd/1060 - Numeros Positivos/1060 - Numeros Positivos.depend
+Exercises-Beecrowd/1060 - Numeros Positivos/1060 - Numeros Positivos.layout
+Exercises-Beecrowd/1061 -Tempo de um Evento/1061 -Tempo de um Evento.cbp
+Exercises-Beecrowd/1061 -Tempo de um Evento/1061 -Tempo de um Evento.layout
+Exercises-Beecrowd/1064 - Positivos e Media/1064 - Positivos e Media.cbp
+Exercises-Beecrowd/1064 - Positivos e Media/1064 - Positivos e Media.depend
+Exercises-Beecrowd/1064 - Positivos e Media/1064 - Positivos e Media.layout
+Exercises-Beecrowd/1065 - Pares entre Cinco Numeros/1065 - Pares entre Cinco Numeros.cbp
+Exercises-Beecrowd/1065 - Pares entre Cinco Numeros/bin/Debug/desktop.ini
+Exercises-Beecrowd/1065 - Pares entre Cinco Numeros/1065 - Pares entre Cinco Numeros.depend
+Exercises-Beecrowd/1066 - Pares, Impares , Positivos e Negativos/1066 - Pares, Impares , Positivos e Negativos.cbp
+Exercises-Beecrowd/1066 - Pares, Impares , Positivos e Negativos/1066 - Pares, Impares , Positivos e Negativos.layout
+Exercises-Beecrowd/1067 - Numeros Impares/1067 - Numeros Impares.cbp
+Exercises-Beecrowd/1067 - Numeros Impares/1067 - Numeros Impares.depend
+Exercises-Beecrowd/1067 - Numeros Impares/1067 - Numeros Impares.layout
+Exercises-Beecrowd/1070 - Seis Numeros Impares/1070 - Seis Numeros Impares.depend
+Exercises-Beecrowd/1070 - Seis Numeros Impares/1070 - Seis Numeros Impares.layout
+Exercises-Beecrowd/1071 - Soma de Impares Consecutivos I/1071 - Soma de Impares Consecutivos I.cbp
+Exercises-Beecrowd/1071 - Soma de Impares Consecutivos I/1071 - Soma de Impares Consecutivos I.depend
+Exercises-Beecrowd/1071 - Soma de Impares Consecutivos I/1071 - Soma de Impares Consecutivos I.depend
+Exercises-Beecrowd/1071 - Soma de Impares Consecutivos I/1071 - Soma de Impares Consecutivos I.layout
+Exercises-Beecrowd/1071 - Soma de Impares Consecutivos I/1071 - Soma de Impares Consecutivos I.depend
+Exercises-Beecrowd/1072 - Intervalo 2/1072 - Intervalo 2.cbp
+Exercises-Beecrowd/1072 - Intervalo 2/1072 - Intervalo 2.depend
+Exercises-Beecrowd/1072 - Intervalo 2/1072 - Intervalo 2.layout
+Exercises-Beecrowd/1073 - Quadrado de Pares/1073 - Quadrado de Pares.cbp
+Exercises-Beecrowd/1073 - Quadrado de Pares/1073 - Quadrado de Pares.depend
+Exercises-Beecrowd/1073 - Quadrado de Pares/1073 - Quadrado de Pares.layout
+Exercises-Beecrowd/1074 - Par ou Impar/1074 - Par ou Impar.cbp
+Exercises-Beecrowd/1074 - Par ou Impar/1074 - Par ou Impar.depend
+Exercises-Beecrowd/1074 - Par ou Impar/1074 - Par ou Impar.layout
+Exercises-Beecrowd/1075 - Resto 2/1075 - Resto 2.cbp
+Exercises-Beecrowd/1075 - Resto 2/1075 - Resto 2.depend
+Exercises-Beecrowd/1075 - Resto 2/1075 - Resto 2.layout
+Exercises-Beecrowd/1078 - Tabuada/1078 - Tabuada.cbp
+Exercises-Beecrowd/1078 - Tabuada/1078 - Tabuada.layout
+Exercises-Beecrowd/1079 - Medias Ponderadas/1079 - Medias Ponderadas.cbp
+Exercises-Beecrowd/1079 - Medias Ponderadas/1079 - Medias Ponderadas.depend
+Exercises-Beecrowd/1079 - Medias Ponderadas/1079 - Medias Ponderadas.layout
+Exercises-Beecrowd/1080 - Maior e Posicao/1080 - Maior e Posicao.cbp
+Exercises-Beecrowd/1080 - Maior e Posicao/1080 - Maior e Posicao.layout
+Exercises-Beecrowd/1094 - Experiencias/1094 - Experiencias.cbp
+Exercises-Beecrowd/1094 - Experiencias/1094 - Experiencias.depend
+Exercises-Beecrowd/1094 - Experiencias/1094 - Experiencias.layout
+Exercises-Beecrowd/1095 - Sequencia IJ 1/1095 - Sequencia IJ 1.cbp
+Exercises-Beecrowd/1095 - Sequencia IJ 1/1095 - Sequencia IJ 1.depend
+Exercises-Beecrowd/1095 - Sequencia IJ 1/1095 - Sequencia IJ 1.layout
+Exercises-Beecrowd/1096 - Sequencia IJ 2/1096 - Sequencia IJ 2.cbp
+Exercises-Beecrowd/1096 - Sequencia IJ 2/1096 - Sequencia IJ 2.layout
+Exercises-Beecrowd/1096 - Sequencia IJ 2/1096 - Sequencia IJ 2.depend
+Exercises-Beecrowd/1097 - Sequencia IJ 3/1097 - Sequencia IJ 3.cbp
+Exercises-Beecrowd/1097 - Sequencia IJ 3/1097 - Sequencia IJ 3.depend
+Exercises-Beecrowd/1097 - Sequencia IJ 3/1097 - Sequencia IJ 3.layout
+Exercises-Beecrowd/1098 - Sequencia IJ 4/1098 - Sequencia IJ 4.cbp
+Exercises-Beecrowd/1098 - Sequencia IJ 4/1098 - Sequencia IJ 4.depend
+Exercises-Beecrowd/1098 - Sequencia IJ 4/1098 - Sequencia IJ 4.layout
+Exercises-Beecrowd/Soma de Impares Consecutivos II/main.cpp
+Exercises-Beecrowd/Soma de Impares Consecutivos II/Soma de Impares Consecutivos II.depend
+Exercises-Beecrowd/1099 - Soma de Impares Consecutivos II/1099 - Soma de Impares Consecutivos II.cbp
+Exercises-Beecrowd/1099 - Soma de Impares Consecutivos II/1099 - Soma de Impares Consecutivos II.depend
+Exercises-Beecrowd/1099 - Soma de Impares Consecutivos II/1099 - Soma de Impares Consecutivos II.layout
+Exercises-Beecrowd/1101 - Sequencia de Numeros e Soma/1101 - Sequencia de Numeros e Soma.cbp
+Exercises-Beecrowd/1101 - Sequencia de Numeros e Soma/1101 - Sequencia de Numeros e Soma.depend
+Exercises-Beecrowd/1101 - Sequencia de Numeros e Soma/1101 - Sequencia de Numeros e Soma.layout
+Exercises-Beecrowd/1113 - Crescente e Decrescente/1113 - Crescente e Decrescente.cbp
+Exercises-Beecrowd/1113 - Crescente e Decrescente/1113 - Crescente e Decrescente.depend
+Exercises-Beecrowd/1113 - Crescente e Decrescente/1113 - Crescente e Decrescente.layout
+Exercises-Beecrowd/1114 - Senha Fixa/1114 - Senha Fixa.cbp
+Exercises-Beecrowd/1114 - Senha Fixa/1114 - Senha Fixa.depend
+Exercises-Beecrowd/1114 - Senha Fixa/1114 - Senha Fixa.layout
+Exercises-Beecrowd/1115 - Quadrante/1115 - Quadrante.cbp
+Exercises-Beecrowd/1115 - Quadrante/1115 - Quadrante.depend
+Exercises-Beecrowd/1115 - Quadrante/1115 - Quadrante.layout
+Exercises-Beecrowd/1116 - Dividindo X por Y/1116 - Dividindo X por Y.cbp
+Exercises-Beecrowd/1116 - Dividindo X por Y/1116 - Dividindo X por Y.depend
+Exercises-Beecrowd/1116 - Dividindo X por Y/1116 - Dividindo X por Y.layout
+Exercises-Beecrowd/1117 - Validacao de Nota/1117 - Validacao de Nota.cbp
+Exercises-Beecrowd/1117 - Validacao de Nota/1117 - Validacao de Nota.depend
+Exercises-Beecrowd/1117 - Validacao de Nota/1117 - Validacao de Nota.layout
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.cbp
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.depend
+Exercises-Beecrowd/1118 - Varias Notas Com Validacao/1118 - Varias Notas Com Validacao.layout
+Exercises-Beecrowd/1131 - Grenais/1131 - Grenais.cbp
+Exercises-Beecrowd/1131 - Grenais/1131 - Grenais.layout
+Exercises-Beecrowd/1132 - Mutiplos de 13/1132 - Mutiplos de 13.cbp
+Exercises-Beecrowd/1132 - Mutiplos de 13/1132 - Mutiplos de 13.depend
+Exercises-Beecrowd/1132 - Mutiplos de 13/1132 - Mutiplos de 13.layout
+Exercises-Beecrowd/1133 - Resto da Divisao/1133 - Resto da Divisao.cbp
+Exercises-Beecrowd/1133 - Resto da Divisao/1133 - Resto da Divisao.depend
+Exercises-Beecrowd/1133 - Resto da Divisao/1133 - Resto da Divisao.layout
+Exercises-Beecrowd/1134 - Tipo de Combustivel/1134 - Tipo de Combustivel.cbp
+Exercises-Beecrowd/1134 - Tipo de Combustivel/1134 - Tipo de Combustivel.depend
+Exercises-Beecrowd/1134 - Tipo de Combustivel/1134 - Tipo de Combustivel.layout
+Exercises-Beecrowd/1142 - PUM/1142 - PUM.cbp
+Exercises-Beecrowd/1142 - PUM/1142 - PUM.depend
+Exercises-Beecrowd/1142 - PUM/1142 - PUM.layout
+Exercises-Beecrowd/1143 - Quadrado e ao Cubo/1143 - Quadrado e ao Cubo.cbp
+Exercises-Beecrowd/1143 - Quadrado e ao Cubo/1143 - Quadrado e ao Cubo.depend
+Exercises-Beecrowd/1143 - Quadrado e ao Cubo/1143 - Quadrado e ao Cubo.layout
+Exercises-Beecrowd/1144 - Sequencia Logica/1144 - Sequencia Logica.cbp
+Exercises-Beecrowd/1144 - Sequencia Logica/1144 - Sequencia Logica.depend
+Exercises-Beecrowd/1144 - Sequencia Logica/1144 - Sequencia Logica.layout
+Exercises-Beecrowd/1145 - Sequencia Logica 2/1145 - Sequencia Logica 2.cbp
+Exercises-Beecrowd/1145 - Sequencia Logica 2/1145 - Sequencia Logica 2.layout
+Exercises-Beecrowd/1145 - Sequencia Logica 2/1145 - Sequencia Logica 2.depend
+Exercises-Beecrowd/1146 - Sequencias Crescentes/1146 - Sequencias Crescentes.cbp
+Exercises-Beecrowd/1146 - Sequencias Crescentes/1146 - Sequencias Crescentes.depend
+Exercises-Beecrowd/1146 - Sequencias Crescentes/1146 - Sequencias Crescentes.layout
+Exercises-Beecrowd/1149 - Somando Inteiros Consecutivos/1149 - Somando Inteiros Consecutivos.cbp
+Exercises-Beecrowd/1149 - Somando Inteiros Consecutivos/1149 - Somando Inteiros Consecutivos.depend
+Exercises-Beecrowd/1149 - Somando Inteiros Consecutivos/1149 - Somando Inteiros Consecutivos.layout
+Exercises-Beecrowd/1150 - Utrapassando Z/1150 - Utrapassando Z.cbp
+Exercises-Beecrowd/1150 - Utrapassando Z/1150 - Utrapassando Z.depend
+Exercises-Beecrowd/1150 - Utrapassando Z/1150 - Utrapassando Z.layout
+Exercises-Beecrowd/1151 - Fibonacci Facil/1151 - Fibonacci Facil.cbp
+Exercises-Beecrowd/1151 - Fibonacci Facil/1151 - Fibonacci Facil.layout
+Exercises-Beecrowd/1151 - Fibonacci Facil/1151 - Fibonacci Facil.depend
+Exercises-Beecrowd/1153 - Fatorial Simples/1153 - Fatorial Simples.cbp
+Exercises-Beecrowd/1153 - Fatorial Simples/1153 - Fatorial Simples.depend
+Exercises-Beecrowd/1153 - Fatorial Simples/1153 - Fatorial Simples.layout
+Exercises-Beecrowd/1154 - Idades/1154 - Idades.cbp
+Exercises-Beecrowd/1154 - Idades/1154 - Idades.layout
+Exercises-Beecrowd/1154 - Idades/1154 - Idades.depend
+Exercises-Beecrowd/1155 - Sequencia S/1155 - Sequencia S.cbp
+Exercises-Beecrowd/1155 - Sequencia S/1155 - Sequencia S.layout
+Exercises-Beecrowd/1156 - Sequencia S II/1156 - Sequencia S II.cbp
+Exercises-Beecrowd/1156 - Sequencia S II/1156 - Sequencia S II.depend
+Exercises-Beecrowd/1156 - Sequencia S II/main.cpp
+Exercises-Beecrowd/1156 - Sequencia S II/1156 - Sequencia S II.layout
+Exercises-Beecrowd/1157 - Divisores I/1157 - Divisores I.cbp
+Exercises-Beecrowd/1157 - Divisores I/1157 - Divisores I.depend
+Exercises-Beecrowd/1157 - Divisores I/1157 - Divisores I.layout
+Exercises-Beecrowd/1158 - Soma de Impares Consecutivos III/1158 - Soma de Impares Consecutivos III.cbp
+Exercises-Beecrowd/1158 - Soma de Impares Consecutivos III/1158 - Soma de Impares Consecutivos III.depend
+Exercises-Beecrowd/1158 - Soma de Impares Consecutivos III/1158 - Soma de Impares Consecutivos III.layout
+Exercises-Beecrowd/1159 - Soma de Pares Consecutivos/1159 - Soma de Pares Consecutivos.cbp
+Exercises-Beecrowd/1159 - Soma de Pares Consecutivos/1159 - Soma de Pares Consecutivos.layout
+Exercises-Beecrowd/1164 - Numero Perfeito/1164 - Numero Perfeito.cbp
+Exercises-Beecrowd/1164 - Numero Perfeito/1164 - Numero Perfeito.depend
+Exercises-Beecrowd/1164 - Numero Perfeito/1164 - Numero Perfeito.layout
+Exercises-Beecrowd/1165 - Numero Primo/1165 - Numero Primo.cbp
+Exercises-Beecrowd/1165 - Numero Primo/1165 - Numero Primo.depend
+Exercises-Beecrowd/1165 - Numero Primo/1165 - Numero Primo.layout
+Exercises-Beecrowd/1160 - Crescimento Populacional/1160 - Crescimento Populacional.cbp
+Exercises-Beecrowd/1160 - Crescimento Populacional/1160 - Crescimento Populacional.depend
+Exercises-Beecrowd/1160 - Crescimento Populacional/1160 - Crescimento Populacional.layout
+Exercises-Beecrowd/1172 - Substituicao em Vetor I/1172 - Substituicao em Vetor I.cbp
+Exercises-Beecrowd/1172 - Substituicao em Vetor I/1172 - Substituicao em Vetor I.depend
+Exercises-Beecrowd/1172 - Substituicao em Vetor I/1172 - Substituicao em Vetor I.layout
+Exercises-Beecrowd/1173 - Preenchimento de Vetor I/1173 - Preenchimento de Vetor I.cbp
+Exercises-Beecrowd/1173 - Preenchimento de Vetor I/1173 - Preenchimento de Vetor I.depend
+Exercises-Beecrowd/1173 - Preenchimento de Vetor I/1173 - Preenchimento de Vetor I.layout
+Exercises-Beecrowd/1174 - Selecao em Vetor I/1174 - Selecao em Vetor I.cbp
+Exercises-Beecrowd/1174 - Selecao em Vetor I/1174 - Selecao em Vetor I.layout
+Exercises-Beecrowd/1175 - Troca em Vetor I/1175 - Troca em Vetor I.cbp
+Exercises-Beecrowd/1175 - Troca em Vetor I/1175 - Troca em Vetor I.depend
+Exercises-Beecrowd/1175 - Troca em Vetor I/1175 - Troca em Vetor I.layout
+Exercises-Beecrowd/1176 - Fibonacci em Vetor/1176 - Fibonacci em Vetor.cbp
+Exercises-Beecrowd/1176 - Fibonacci em Vetor/1176 - Fibonacci em Vetor.layout
+Exercises-Beecrowd/1177 - Preenchimento de Vetor II/1177 - Preenchimento de Vetor II.cbp
+Exercises-Beecrowd/1177 - Preenchimento de Vetor II/1177 - Preenchimento de Vetor II.depend
+Exercises-Beecrowd/1177 - Preenchimento de Vetor II/1177 - Preenchimento de Vetor II.layout
+Exercises-Beecrowd/1178 - Preenchimento de Vetor III/1178 - Preenchimento de Vetor III.cbp
+Exercises-Beecrowd/1178 - Preenchimento de Vetor III/1178 - Preenchimento de Vetor III.depend
+Exercises-Beecrowd/1178 - Preenchimento de Vetor III/1178 - Preenchimento de Vetor III.layout
+Exercises-Beecrowd/1176 - Fibonacci em Vetor/1176 - Fibonacci em Vetor.depend
+Exercises-Beecrowd/1179 - Preenchimento de Vetor IV/1179 - Preenchimento de Vetor IV.cbp
+Exercises-Beecrowd/1179 - Preenchimento de Vetor IV/1179 - Preenchimento de Vetor IV.depend
+Exercises-Beecrowd/1179 - Preenchimento de Vetor IV/1179 - Preenchimento de Vetor IV.layout
+Exercises-Beecrowd/1180 - Menor e Posicao/1180 - Menor e Posicao.cbp
+Exercises-Beecrowd/1180 - Menor e Posicao/1180 - Menor e Posicao.depend
+Exercises-Beecrowd/1180 - Menor e Posicao/1180 - Menor e Posicao.layout
+Exercises-Beecrowd/1181 - Linha na Matriz/1181 - Linha na Matriz.cbp
+Exercises-Beecrowd/1181 - Linha na Matriz/1181 - Linha na Matriz.layout
+Exercises-Beecrowd/1182 - Coluna na Matriz/1182 - Coluna na Matriz.cbp
+Exercises-Beecrowd/1182 - Coluna na Matriz/1182 - Coluna na Matriz.depend
+Exercises-Beecrowd/1182 - Coluna na Matriz/1182 - Coluna na Matriz.layout
+Exercises-Beecrowd/1183 - Acima da Diagonal Principal/1183 - Acima da Diagonal Principal.cbp
+Exercises-Beecrowd/1183 - Acima da Diagonal Principal/1183 - Acima da Diagonal Principal.depend
+Exercises-Beecrowd/1183 - Acima da Diagonal Principal/1183 - Acima da Diagonal Principal.layout
+Exercises-Beecrowd/1184 - Abaixo da Diagonal Principal/1184 - Abaixo da Diagonal Principal.cbp
+Exercises-Beecrowd/1184 - Abaixo da Diagonal Principal/1184 - Abaixo da Diagonal Principal.layout
+Exercises-Beecrowd/1185 - Acima da Diagonal Secundaria/1185 - Acima da Diagonal Secundaria.cbp
+Exercises-Beecrowd/1185 - Acima da Diagonal Secundaria/1185 - Acima da Diagonal Secundaria.layout
+Exercises-Beecrowd/1186 - Abaixo da Diagonal Secundaria/1186 - Abaixo da Diagonal Secundaria.cbp
+Exercises-Beecrowd/1186 - Abaixo da Diagonal Secundaria/1186 - Abaixo da Diagonal Secundaria.layout
+Exercises-Beecrowd/1187 - Area Superior/1187 - Area Superior.cbp
+Exercises-Beecrowd/1187 - Area Superior/1187 - Area Superior.depend
+Exercises-Beecrowd/1187 - Area Superior/1187 - Area Superior.layout
+Exercises-Beecrowd/1188 - Area Inferior/1188 - Area Inferior.cbp
+Exercises-Beecrowd/1188 - Area Inferior/1188 - Area Inferior.layout
+Exercises-Beecrowd/1189 - Area Esquerda/1189 - Area Esquerda.cbp
+Exercises-Beecrowd/1189 - Area Esquerda/1189 - Area Esquerda.layout
+Exercises-Beecrowd/1190 - Area Direita/1190 - Area Direita.cbp
+Exercises-Beecrowd/1190 - Area Direita/1190 - Area Direita.layout
+Exercises-Beecrowd/1435 - Matriz Quadrada I/1435 - Matriz Quadrada I.cbp
+Exercises-Beecrowd/1435 - Matriz Quadrada I/1435 - Matriz Quadrada I.layout
+Exercises-Beecrowd/1478 - Matriz Quadrada II/1478 - Matriz Quadrada II.cbp
+Exercises-Beecrowd/1478 - Matriz Quadrada II/1478 - Matriz Quadrada II.depend
+Exercises-Beecrowd/1478 - Matriz Quadrada II/1478 - Matriz Quadrada II.layout
+Exercises-Beecrowd/1534 - Matriz 1 2 3/1534 - Matriz 1 2 3.cbp
+Exercises-Beecrowd/1534 - Matriz 1 2 3/1534 - Matriz 1 2 3.layout
+Exercises-Beecrowd/1534 - Matriz 1 2 3/1534 - Matriz 1 2 3.depend
+Exercises-Beecrowd/1534 - Matriz 1 2 3/1534 - Matriz 1 2 3.depend
+Exercises-Beecrowd/1534 - Matriz 1 2 3/1534 - Matriz 1 2 3.depend
+Exercises-Beecrowd/1534 - Matriz 1 2 3/1534 - Matriz 1 2 3.depend
+Exercises-Beecrowd/1534 - Matriz 1 2 3/1534 - Matriz 1 2 3.depend
+Exercises-Beecrowd/1541 - Construindo Casas/1541 - Construindo Casas.cbp
+Exercises-Beecrowd/1541 - Construindo Casas/1541 - Construindo Casas.depend
+Exercises-Beecrowd/1541 - Construindo Casas/1541 - Construindo Casas.layout
+Exercises-Beecrowd/1557 - Matriz Quadrada III/1557 - Matriz Quadrada III.cbp
+Exercises-Beecrowd/1557 - Matriz Quadrada III/1557 - Matriz Quadrada III.depend
+Exercises-Beecrowd/1557 - Matriz Quadrada III/1557 - Matriz Quadrada III.layout
+Exercises-Beecrowd/1564 - Vai Ter Copa/1564 - Vai Ter Copa.cbp
+Exercises-Beecrowd/1564 - Vai Ter Copa/1564 - Vai Ter Copa.depend
+Exercises-Beecrowd/1564 - Vai Ter Copa/1564 - Vai Ter Copa.layout
+Exercises-Beecrowd/1589 - Bob Conduite/1589 - Bob Conduite.cbp
+Exercises-Beecrowd/1589 - Bob Conduite/1589 - Bob Conduite.depend
+Exercises-Beecrowd/1589 - Bob Conduite/1589 - Bob Conduite.layout
+Exercises-Beecrowd/1759 - Ho Ho Ho/1759 - Ho Ho Ho.cbp
+Exercises-Beecrowd/1759 - Ho Ho Ho/1759 - Ho Ho Ho.depend
+Exercises-Beecrowd/1759 - Ho Ho Ho/1759 - Ho Ho Ho.layout
+Exercises-Beecrowd/1789 - A Corrida de Lesmas/1789 - A Corrida de Lesmas.cbp
+Exercises-Beecrowd/1789 - A Corrida de Lesmas/1789 - A Corrida de Lesmas.depend
+Exercises-Beecrowd/1789 - A Corrida de Lesmas/1789 - A Corrida de Lesmas.layout
+Exercises-Beecrowd/1827 - Matriz Quadrada IV/1827 - Matriz Quadrada IV.cbp
+Exercises-Beecrowd/1827 - Matriz Quadrada IV/1827 - Matriz Quadrada IV.depend
+Exercises-Beecrowd/1827 - Matriz Quadrada IV/1827 - Matriz Quadrada IV.layout
+Exercises-Beecrowd/1827 - Matriz Quadrada IV/1827 - Matriz Quadrada IV.depend
+Exercises-Beecrowd/1827 - Matriz Quadrada IV/1827 - Matriz Quadrada IV.depend
+Exercises-Beecrowd/1828 - Bazinga/1828 - Bazinga.cbp
+Exercises-Beecrowd/1828 - Bazinga/1828 - Bazinga.depend
+Exercises-Beecrowd/1828 - Bazinga/1828 - Bazinga.layout
+Exercises-Beecrowd/1837 - Prefacio/1837 - Prefacio.cbp
+Exercises-Beecrowd/1837 - Prefacio/1837 - Prefacio.depend
+Exercises-Beecrowd/1837 - Prefacio/1837 - Prefacio.layout
+Exercises-Beecrowd/1847 - Bem-vindos e  Bem-vindas ao Inverno/1847 - Bem-vindos e  Bem-vindas ao Inverno.cbp
+Exercises-Beecrowd/1847 - Bem-vindos e  Bem-vindas ao Inverno/1847 - Bem-vindos e  Bem-vindas ao Inverno.cbp.save-failed
+Exercises-Beecrowd/1847 - Bem-vindos e  Bem-vindas ao Inverno/1847 - Bem-vindos e  Bem-vindas ao Inverno.layout
+Exercises-Beecrowd/1858 -  A Resposta de Theon/1858 -  A Resposta de Theon.cbp
+Exercises-Beecrowd/1858 -  A Resposta de Theon/1858 -  A Resposta de Theon.depend
+Exercises-Beecrowd/1858 -  A Resposta de Theon/1858 -  A Resposta de Theon.layout
+Exercises-Beecrowd/1847 - Bem-vindos e  Bem-vindas ao Inverno/1847 - Bem-vindos e  Bem-vindas ao Inverno.depend
+Exercises-Beecrowd/1848 - Corvo Contador/1848 - Corvo Contador.cbp
+Exercises-Beecrowd/1848 - Corvo Contador/1848 - Corvo Contador.layout
+Exercises-Beecrowd/1848 - Corvo Contador/1848 - Corvo Contador.depend
+Exercises-Beecrowd/1864 - Nossos Dias Nunca Voltarao/bin/desktop.ini
+Exercises-Beecrowd/1864 - Nossos Dias Nunca Voltarao/1864 - Nossos Dias Nunca Voltarao.cbp
+Exercises-Beecrowd/1864 - Nossos Dias Nunca Voltarao/1864 - Nossos Dias Nunca Voltarao.depend
+Exercises-Beecrowd/1864 - Nossos Dias Nunca Voltarao/1864 - Nossos Dias Nunca Voltarao.layout
+Exercises-Beecrowd/1865 - Mjolnir/1865 - Mjolnir.cbp
+Exercises-Beecrowd/1865 - Mjolnir/1865 - Mjolnir.layout
+Exercises-Beecrowd/1866 - Conta/1866 - Conta.cbp
+Exercises-Beecrowd/1866 - Conta/1866 - Conta.depend
+Exercises-Beecrowd/1866 - Conta/1866 - Conta.layout
+Exercises-Beecrowd/1914 - De Quem eh a Vez/1914 - De Quem eh a Vez.depend
+Exercises-Beecrowd/1924 - Vitoria e a Indecisao/1924 - Vitoria e a Indecisao.cbp
+Exercises-Beecrowd/1914 - De Quem eh a Vez/1914 - De Quem eh a Vez.layout
+Exercises-Beecrowd/1924 - Vitoria e a Indecisao/1924 - Vitoria e a Indecisao.layout
+Exercises-Beecrowd/1930 - Tomadas/1930 - Tomadas.cbp
+Exercises-Beecrowd/1930 - Tomadas/1930 - Tomadas.depend
+Exercises-Beecrowd/1930 - Tomadas/1930 - Tomadas.layout
+Exercises-Beecrowd/1929 - Triangulo/1929 - Triangulo.cbp
+Exercises-Beecrowd/1929 - Triangulo/1929 - Triangulo.depend
+Exercises-Beecrowd/1929 - Triangulo/1929 - Triangulo.layout
+Exercises-Beecrowd/1933 - Tri-du/1933 - Tri-du.cbp
+Exercises-Beecrowd/1933 - Tri-du/1933 - Tri-du.depend
+Exercises-Beecrowd/1933 - Tri-du/1933 - Tri-du.layout
+Exercises-Beecrowd/1957 - Converter para Hexadecimal/1957 - Converter para Hexadecimal.cbp
+Exercises-Beecrowd/1957 - Converter para Hexadecimal/1957 - Converter para Hexadecimal.depend
+Exercises-Beecrowd/1957 - Converter para Hexadecimal/1957 - Converter para Hexadecimal.layout
+Exercises-Beecrowd/1958 - Notacao Cientifica/1958 - Notacao Cientifica.cbp
+Exercises-Beecrowd/1958 - Notacao Cientifica/1958 - Notacao Cientifica.depend
+Exercises-Beecrowd/1958 - Notacao Cientifica/1958 - Notacao Cientifica.layout
+Exercises-Beecrowd/1959 - Poligonos Regulares Simples/1959 - Poligonos Regulares Simples.cbp
+Exercises-Beecrowd/1959 - Poligonos Regulares Simples/1959 - Poligonos Regulares Simples.depend
+Exercises-Beecrowd/1959 - Poligonos Regulares Simples/1959 - Poligonos Regulares Simples.layout
+Exercises-Beecrowd/1960 - Numeracao Romana para Numeros de Pagina/1960 - Numeracao Romana para Numeros de Pagina.cbp
+Exercises-Beecrowd/1960 - Numeracao Romana para Numeros de Pagina/1960 - Numeracao Romana para Numeros de Pagina.depend
+Exercises-Beecrowd/1960 - Numeracao Romana para Numeros de Pagina/1960 - Numeracao Romana para Numeros de Pagina.layout
+Exercises-Beecrowd/1961 - Pula Sapo/1961 - Pula Sapo.cbp
+Exercises-Beecrowd/1961 - Pula Sapo/1961 - Pula Sapo.depend
+Exercises-Beecrowd/1961 - Pula Sapo/1961 - Pula Sapo.layout
+Exercises-Beecrowd/1962 - Ha Muito, Muito Tempo Atras/1962 - Ha Muito, Muito Tempo Atras.cbp
+Exercises-Beecrowd/1962 - Ha Muito, Muito Tempo Atras/1962 - Ha Muito, Muito Tempo Atras.layout
+Exercises-Beecrowd/1962 - Ha Muito, Muito Tempo Atras/1962 - Ha Muito, Muito Tempo Atras.depend
+Exercises-Beecrowd/1963 - O Filme/1963 - O Filme.cbp.save-failed
+Exercises-Beecrowd/1963 - O Filme/1963 - O Filme.cbp
+Exercises-Beecrowd/1963 - O Filme/1963 - O Filme.depend
+Exercises-Beecrowd/1963 - O Filme/1963 - O Filme.layout
+Exercises-Beecrowd/1985 - MacPRONALTS/1985 - MacPRONALTS.cbp
+Exercises-Beecrowd/1985 - MacPRONALTS/1985 - MacPRONALTS.depend
+Exercises-Beecrowd/1985 - MacPRONALTS/1985 - MacPRONALTS.layout
+Exercises-Beecrowd/1973 - Jornada nas Estrelas/1973 - Jornada nas Estrelas.cbp
+Exercises-Beecrowd/1973 - Jornada nas Estrelas/1973 - Jornada nas Estrelas.depend
+Exercises-Beecrowd/1973 - Jornada nas Estrelas/1973 - Jornada nas Estrelas.layout
+Exercises-Beecrowd/1983 - O Escolhido/1983 - O Escolhido.cbp
+Exercises-Beecrowd/1983 - O Escolhido/1983 - O Escolhido.depend
+Exercises-Beecrowd/1984 - O Enigma do Pronalandia/1984 - O Enigma do Pronalandia.cbp
+Exercises-Beecrowd/1983 - O Escolhido/1983 - O Escolhido.layout
+*.save-failed
+Exercises-Beecrowd/1984 - O Enigma do Pronalandia/1984 - O Enigma do Pronalandia.depend
+Exercises-Beecrowd/1984 - O Enigma do Pronalandia/1984 - O Enigma do Pronalandia.layout
+Exercises-Beecrowd/2003 - Domingo de Manha/2003 - Domingo de Manha.cbp
+Exercises-Beecrowd/2003 - Domingo de Manha/2003 - Domingo de Manha.depend
+Exercises-Beecrowd/2003 - Domingo de Manha/2003 - Domingo de Manha.layout
+Exercises-Beecrowd/2006 - Identificando o Chah/2006 - Identificando o Chah.cbp
+Exercises-Beecrowd/2006 - Identificando o Chah/2006 - Identificando o Chah.depend
+Exercises-Beecrowd/2006 - Identificando o Chah/2006 - Identificando o Chah.layout
+Exercises-Beecrowd/2029 - Reservatorio de Mel/2029 - Reservatorio de Mel.cbp
+Exercises-Beecrowd/2029 - Reservatorio de Mel/2029 - Reservatorio de Mel.depend
+Exercises-Beecrowd/2029 - Reservatorio de Mel/2029 - Reservatorio de Mel.layout
+Exercises-Beecrowd/2028 - Sequencia de Sequencia/2028 - Sequencia de Sequencia.cbp
+Exercises-Beecrowd/2028 - Sequencia de Sequencia/2028 - Sequencia de Sequencia.layout
+Exercises-Beecrowd/2028 - Sequencia de Sequencia/2028 - Sequencia de Sequencia.depend
+Exercises-Beecrowd/2031 - Pedra, Papel, Ataque Aereo/2031 - Pedra, Papel, Ataque Aereo.cbp
+Exercises-Beecrowd/2031 - Pedra, Papel, Ataque Aereo/2031 - Pedra, Papel, Ataque Aereo.depend
+Exercises-Beecrowd/2031 - Pedra, Papel, Ataque Aereo/2031 - Pedra, Papel, Ataque Aereo.layout
+Exercises-Beecrowd/2057 - Fuso Horario/2057 - Fuso Horario.cbp
+Exercises-Beecrowd/2057 - Fuso Horario/2057 - Fuso Horario.depend
+Exercises-Beecrowd/2057 - Fuso Horario/2057 - Fuso Horario.layout
+Exercises-Beecrowd/2059 - Impar, Par ou Roubo/2059 - Impar, Par ou Roubo.cbp
+Exercises-Beecrowd/2059 - Impar, Par ou Roubo/2059 - Impar, Par ou Roubo.depend
+Exercises-Beecrowd/2059 - Impar, Par ou Roubo/2059 - Impar, Par ou Roubo.layout
+Exercises-Beecrowd/2060 - Desafio de Bino/2060 - Desafio de Bino.cbp
+Exercises-Beecrowd/2060 - Desafio de Bino/2060 - Desafio de Bino.depend
+Exercises-Beecrowd/2060 - Desafio de Bino/2060 - Desafio de Bino.layout
+Exercises-Beecrowd/2061 - As Abas de Pericles/2061 - As Abas de Pericles.cbp
+Exercises-Beecrowd/2061 - As Abas de Pericles/2061 - As Abas de Pericles.depend
+Exercises-Beecrowd/2061 - As Abas de Pericles/2061 - As Abas de Pericles.layout
+Exercises-Beecrowd/2126 - Procurando Subsequencias/2126 - Procurando Subsequencias.cbp
+Exercises-Beecrowd/2126 - Procurando Subsequencias/2126 - Procurando Subsequencias.depend
+Exercises-Beecrowd/2126 - Procurando Subsequencias/2126 - Procurando Subsequencias.layout
+Exercises-Beecrowd/2139 - Natal de Pedrinho/2139 - Natal de Pedrinho.cbp
+Exercises-Beecrowd/2139 - Natal de Pedrinho/2139 - Natal de Pedrinho.depend
+Exercises-Beecrowd/2139 - Natal de Pedrinho/2139 - Natal de Pedrinho.layout
+Exercises-Beecrowd/2140 - Duas Notas/2140 - Duas Notas.cbp
+Exercises-Beecrowd/2140 - Duas Notas/2140 - Duas Notas.depend
+Exercises-Beecrowd/2140 - Duas Notas/2140 - Duas Notas.layout
+Exercises-Beecrowd/2143 - A Volta do Radar/2143 - A Volta do Radar.cbp
+Exercises-Beecrowd/2143 - A Volta do Radar/2143 - A Volta do Radar.depend
+Exercises-Beecrowd/2143 - A Volta do Radar/2143 - A Volta do Radar.layout
+Exercises-Beecrowd/2146 - Senha/2146 - Senha.cbp
+Exercises-Beecrowd/2146 - Senha/2146 - Senha.depend
+Exercises-Beecrowd/2146 - Senha/2146 - Senha.layout
+Exercises-Beecrowd/2147 - Galopeira/2147 - Galopeira.cbp
+Exercises-Beecrowd/2147 - Galopeira/2147 - Galopeira.depend
+Exercises-Beecrowd/2147 - Galopeira/2147 - Galopeira.layout
+Exercises-Beecrowd/2152 - Pepe Ja Tirei a Vela/2152 - Pepe Ja Tirei a Vela.cbp
+Exercises-Beecrowd/2152 - Pepe Ja Tirei a Vela/2152 - Pepe Ja Tirei a Vela.depend
+Exercises-Beecrowd/2152 - Pepe Ja Tirei a Vela/2152 - Pepe Ja Tirei a Vela.layout
+Exercises-Beecrowd/2159 - Numero Aproximado de Primos/2159 - Numero Aproximado de Primos.cbp
+Exercises-Beecrowd/2159 - Numero Aproximado de Primos/2159 - Numero Aproximado de Primos.depend
+Exercises-Beecrowd/2159 - Numero Aproximado de Primos/2159 - Numero Aproximado de Primos.layout
+Exercises-Beecrowd/2160 - Nome no Formulario/2160 - Nome no Formulario.cbp
+Exercises-Beecrowd/2160 - Nome no Formulario/2160 - Nome no Formulario.depend
+Exercises-Beecrowd/2160 - Nome no Formulario/2160 - Nome no Formulario.layout
+Exercises-Beecrowd/2161 - Raiz Quadrada de 10/2161 - Raiz Quadrada de 10.cbp
+Exercises-Beecrowd/2161 - Raiz Quadrada de 10/2161 - Raiz Quadrada de 10.depend
+Exercises-Beecrowd/2161 - Raiz Quadrada de 10/2161 - Raiz Quadrada de 10.layout
+Exercises-Beecrowd/2162 - Picos e Vales/2162 - Picos e Vales.cbp
+Exercises-Beecrowd/2162 - Picos e Vales/2162 - Picos e Vales.depend
+Exercises-Beecrowd/2162 - Picos e Vales/2162 - Picos e Vales.layout
+Exercises-Beecrowd/2163 - O Despertar da Forca/2163 - O Despertar da Forca.cbp
+Exercises-Beecrowd/2163 - O Despertar da Forca/2163 - O Despertar da Forca.layout
+Exercises-Beecrowd/2163 - O Despertar da Forca/2163 - O Despertar da Forca.depend
+Exercises-Beecrowd/2164 - Fibonacci Rapido/2164 - Fibonacci Rapido.cbp
+Exercises-Beecrowd/2164 - Fibonacci Rapido/2164 - Fibonacci Rapido.depend
+Exercises-Beecrowd/2164 - Fibonacci Rapido/2164 - Fibonacci Rapido.layout
+Exercises-Beecrowd/2165 - Tuitando/2165 - Tuitando.cbp
+Exercises-Beecrowd/2165 - Tuitando/2165 - Tuitando.layout
+Exercises-Beecrowd/2166 - Raiz Quadrada de 2/2166 - Raiz Quadrada de 2.depend
+Exercises-Beecrowd/2166 - Raiz Quadrada de 2/2166 - Raiz Quadrada de 2.layout
+Exercises-Beecrowd/2167 - Falha do Motor/2167 - Falha do Motor.cbp
+Exercises-Beecrowd/2167 - Falha do Motor/2167 - Falha do Motor.depend
+Exercises-Beecrowd/2167 - Falha do Motor/2167 - Falha do Motor.layout
+Exercises-Beecrowd/2168 - Crepusculo em Portland/2168 - Crepusculo em Portland.cbp
+Exercises-Beecrowd/2168 - Crepusculo em Portland/2168 - Crepusculo em Portland.depend
+Exercises-Beecrowd/2168 - Crepusculo em Portland/2168 - Crepusculo em Portland.layout
+Exercises-Beecrowd/2172 - Evento/2172 - Evento.cbp
+Exercises-Beecrowd/2172 - Evento/2172 - Evento.depend
+Exercises-Beecrowd/2172 - Evento/2172 - Evento.layout
+Exercises-Beecrowd/2176 - Paridade/2176 - Paridade.cbp
+Exercises-Beecrowd/2203 - Tempestade de Corvos/2203 - Tempestade de Corvos.cbp
+Exercises-Beecrowd/2176 - Paridade/2176 - Paridade.depend
+Exercises-Beecrowd/2176 - Paridade/2176 - Paridade.layout
+Exercises-Beecrowd/2203 - Tempestade de Corvos/2203 - Tempestade de Corvos.depend
+Exercises-Beecrowd/2203 - Tempestade de Corvos/2203 - Tempestade de Corvos.layout
+Exercises-Beecrowd/2221 - Batalha de Pomekons/2221 - Batalha de Pomekons.cbp
+Exercises-Beecrowd/2221 - Batalha de Pomekons/2221 - Batalha de Pomekons.depend
+Exercises-Beecrowd/2221 - Batalha de Pomekons/2221 - Batalha de Pomekons.layout
+Exercises-Beecrowd/2234 - Cachorros-Quentes/2234 - Cachorros-Quentes.cbp
+Exercises-Beecrowd/2234 - Cachorros-Quentes/2234 - Cachorros-Quentes.depend
+Exercises-Beecrowd/2234 - Cachorros-Quentes/2234 - Cachorros-Quentes.layout
+Exercises-Beecrowd/2235 - Andando no Tempo/2235 - Andando no Tempo.cbp
+Exercises-Beecrowd/2235 - Andando no Tempo/2235 - Andando no Tempo.depend
+Exercises-Beecrowd/2235 - Andando no Tempo/2235 - Andando no Tempo.layout
+Exercises-Beecrowd/2310 - Voleibol/2310 - Voleibol.cbp
+Exercises-Beecrowd/2310 - Voleibol/2310 - Voleibol.depend
+Exercises-Beecrowd/2310 - Voleibol/2310 - Voleibol.layout
+Exercises-Beecrowd/2311 - Saltos Ornamentais/2311 - Saltos Ornamentais.cbp
+Exercises-Beecrowd/2311 - Saltos Ornamentais/2311 - Saltos Ornamentais.depend
+Exercises-Beecrowd/2311 - Saltos Ornamentais/2311 - Saltos Ornamentais.layout
+Exercises-Beecrowd/2313 - Qual Triangulo/2313 - Qual Triangulo.cbp
+Exercises-Beecrowd/2313 - Qual Triangulo/2313 - Qual Triangulo.layout
+Exercises-Beecrowd/2344 - Notas da Prova/2344 - Notas da Prova.cbp
+Exercises-Beecrowd/2344 - Notas da Prova/2344 - Notas da Prova.depend
+Exercises-Beecrowd/2344 - Notas da Prova/2344 - Notas da Prova.layout
+Exercises-Beecrowd/2334 - Patinhos/2334 - Patinhos.cbp
+Exercises-Beecrowd/2334 - Patinhos/2334 - Patinhos.depend
+Exercises-Beecrowd/2334 - Patinhos/2334 - Patinhos.layout
+Exercises-Beecrowd/2483 - Feliz Nataaal\!/2483 - Feliz Nataaal\!.cbp
+Exercises-Beecrowd/2483 - Feliz Nataaal\!/2483 - Feliz Nataaal\!.depend
+Exercises-Beecrowd/2483 - Feliz Nataaal\!/2483 - Feliz Nataaal\!.layout
+Exercises-Beecrowd/2486 - C Mais ou Menos/2486 - C Mais ou Menos.cbp
+Exercises-Beecrowd/2486 - C Mais ou Menos/2486 - C Mais ou Menos.layout
+Exercises-Beecrowd/2510 - Batmain/2510 - Batmain.cbp
+Exercises-Beecrowd/2510 - Batmain/2510 - Batmain.depend
+Exercises-Beecrowd/2510 - Batmain/2510 - Batmain.layout
+Exercises-Beecrowd/2493 - Jogo do Operador/2493 - Jogo do Operador.cbp
+Exercises-Beecrowd/2493 - Jogo do Operador/2493 - Jogo do Operador.layout
+Exercises-Beecrowd/2502 - Decifrando a Carta Criptografada/2502 - Decifrando a Carta Criptografada.cbp
+Exercises-Beecrowd/2502 - Decifrando a Carta Criptografada/2502 - Decifrando a Carta Criptografada.layout
+Exercises-Beecrowd/2523 - A Mensagem de Will/2523 - A Mensagem de Will.cbp
+Exercises-Beecrowd/2523 - A Mensagem de Will/2523 - A Mensagem de Will.depend
+Exercises-Beecrowd/2523 - A Mensagem de Will/2523 - A Mensagem de Will.layout
+Exercises-Beecrowd/2543 - Jogatina UFPR/2543 - Jogatina UFPR.cbp
+Exercises-Beecrowd/2543 - Jogatina UFPR/2543 - Jogatina UFPR.layout
+Exercises-Beecrowd/2534 - Exame Geral/2534 - Exame Geral.cbp
+Exercises-Beecrowd/2534 - Exame Geral/2534 - Exame Geral.depend
+Exercises-Beecrowd/2534 - Exame Geral/2534 - Exame Geral.layout
+Exercises-Beecrowd/2581 - I am Toorg\!/2581 - I am Toorg\!.cbp
+Exercises-Beecrowd/2581 - I am Toorg\!/2581 - I am Toorg\!.depend
+Exercises-Beecrowd/2581 - I am Toorg\!/2581 - I am Toorg\!.layout
+Exercises-Beecrowd/2547  - Montanha-Russa/2547  - Montanha-Russa.cbp
+Exercises-Beecrowd/2547  - Montanha-Russa/2547  - Montanha-Russa.depend
+Exercises-Beecrowd/2547  - Montanha-Russa/2547  - Montanha-Russa.depend
+Exercises-Beecrowd/2547  - Montanha-Russa/2547  - Montanha-Russa.layout
+Exercises-Beecrowd/2582 - System of a Download/2582 - System of a Download.cbp
+Exercises-Beecrowd/2582 - System of a Download/2582 - System of a Download.depend
+Exercises-Beecrowd/2533 - Estagio/2533 - Estagio.cbp
+Exercises-Beecrowd/2533 - Estagio/2533 - Estagio.layout
+Exercises-Beecrowd/2520 - O Ultimo Analogimon/2520 - O Ultimo Analogimon.cbp
+Exercises-Beecrowd/2520 - O Ultimo Analogimon/2520 - O Ultimo Analogimon.depend
+Exercises-Beecrowd/2520 - O Ultimo Analogimon/2520 - O Ultimo Analogimon.layout
+Exercises-Beecrowd/2540 - Impeachment do Lider/2540 - Impeachment do Lider.cbp
+Exercises-Beecrowd/2540 - Impeachment do Lider/2540 - Impeachment do Lider.depend
+Exercises-Beecrowd/2540 - Impeachment do Lider/2540 - Impeachment do Lider.layout
+Exercises-Beecrowd/2542 - Iu-Di-Oh/2542 - Iu-Di-Oh.cbp
+Exercises-Beecrowd/2542 - Iu-Di-Oh/2542 - Iu-Di-Oh.depend
+Exercises-Beecrowd/2542 - Iu-Di-Oh/2542 - Iu-Di-Oh.layout
+Exercises-Beecrowd/2544 - Kage Bunshin no Jutsu/2544 - Kage Bunshin no Jutsu.cbp
+Exercises-Beecrowd/2544 - Kage Bunshin no Jutsu/2544 - Kage Bunshin no Jutsu.depend
+Exercises-Beecrowd/2544 - Kage Bunshin no Jutsu/2544 - Kage Bunshin no Jutsu.layout
+Exercises-Beecrowd/2551 - Novo Recorde/2551 - Novo Recorde.cbp
+Exercises-Beecrowd/2551 - Novo Recorde/2551 - Novo Recorde.depend
+Exercises-Beecrowd/2551 - Novo Recorde/2551 - Novo Recorde.layout
+Exercises-Beecrowd/2552 - PaodeQuejoSweeper/2552 - PaodeQuejoSweeper.cbp
+Exercises-Beecrowd/2552 - PaodeQuejoSweeper/2552 - PaodeQuejoSweeper.layout
+Exercises-Beecrowd/2554 - Pizza Antes de BH/2554 - Pizza Antes de BH.cbp
+Exercises-Beecrowd/2554 - Pizza Antes de BH/2554 - Pizza Antes de BH.depend
+Exercises-Beecrowd/2554 - Pizza Antes de BH/2554 - Pizza Antes de BH.layout
+Exercises-Beecrowd/2626 - Turma do JB6/2626 - Turma do JB6.cbp
+Exercises-Beecrowd/2626 - Turma do JB6/2626 - Turma do JB6.layout
+Exercises-Beecrowd/2630 - Escala de Cinza/2630 - Escala de Cinza.cbp
+Exercises-Beecrowd/2630 - Escala de Cinza/2630 - Escala de Cinza.depend
+Exercises-Beecrowd/2630 - Escala de Cinza/2630 - Escala de Cinza.layout
+Exercises-Beecrowd/2702 - Escolha Dificil/2702 - Escolha Dificil.cbp
+Exercises-Beecrowd/2702 - Escolha Dificil/2702 - Escolha Dificil.depend
+Exercises-Beecrowd/2702 - Escolha Dificil/2702 - Escolha Dificil.layout
+Exercises-Beecrowd/2630 - Magic and Sword/2630 - Magic and Sword.cbp
+Exercises-Beecrowd/2630 - Magic and Sword/2630 - Magic and Sword.layout
+Exercises-Beecrowd/2635 - Navegador Web/2635 - Navegador Web.cbp
+Exercises-Beecrowd/2635 - Navegador Web/2635 - Navegador Web.layout
+Exercises-Beecrowd/2653 - Dijkstra/2653 - Dijkstra.cbp
+Exercises-Beecrowd/2653 - Dijkstra/2653 - Dijkstra.layout
+Exercises-Beecrowd/2663 - Fase/2663 - Fase.cbp
+Exercises-Beecrowd/2663 - Fase/2663 - Fase.depend
+Exercises-Beecrowd/2663 - Fase/2663 - Fase.layout
+Exercises-Beecrowd/2670 - Maquina de Cafe/2670 - Maquina de Cafe.cbp
+Exercises-Beecrowd/2670 - Maquina de Cafe/2670 - Maquina de Cafe.depend
+Exercises-Beecrowd/2670 - Maquina de Cafe/2670 - Maquina de Cafe.layout
+Exercises-Beecrowd/2685 - A Mudanca/2685 - A Mudanca.cbp
+Exercises-Beecrowd/2685 - A Mudanca/2685 - A Mudanca.depend
+Exercises-Beecrowd/2685 - A Mudanca/2685 - A Mudanca.layout
+Exercises-Beecrowd/2708 - Turistas no Parque Huacachina/2708 - Turistas no Parque Huacachina.cbp
+Exercises-Beecrowd/2708 - Turistas no Parque Huacachina/2708 - Turistas no Parque Huacachina.depend
+Exercises-Beecrowd/2708 - Turistas no Parque Huacachina/2708 - Turistas no Parque Huacachina.layout
+Exercises-Beecrowd/2686 - A Mudanca Continua/2686 - A Mudanca Continua.cbp
+Exercises-Beecrowd/2686 - A Mudanca Continua/2686 - A Mudanca Continua.layout
+Exercises-Beecrowd/2717 - Tempo do Duende/2717 - Tempo do Duende.cbp
+Exercises-Beecrowd/2717 - Tempo do Duende/2717 - Tempo do Duende.depend
+Exercises-Beecrowd/2717 - Tempo do Duende/2717 - Tempo do Duende.layout
+Exercises-Beecrowd/2747 - Saida 1/2747 - Saida 1.cbp
+Exercises-Beecrowd/2747 - Saida 1/2747 - Saida 1.depend
+Exercises-Beecrowd/2747 - Saida 1/2747 - Saida 1.layout
+Exercises-Beecrowd/2709 - As Moedas de Robbie/2709 - As Moedas de Robbie.cbp
+Exercises-Beecrowd/2709 - As Moedas de Robbie/2709 - As Moedas de Robbie.layout
+Exercises-Beecrowd/2712 - Rodizio Veicular/2712 - Rodizio Veicular.cbp
+Exercises-Beecrowd/2712 - Rodizio Veicular/2712 - Rodizio Veicular.layout
+Exercises-Beecrowd/2712 - Rodizio Veicular/2712 - Rodizio Veicular.depend
+Exercises-Beecrowd/2715 - Dividindo os Trabalhos I/2715 - Dividindo os Trabalhos I.depend
+Exercises-Beecrowd/2715 - Dividindo os Trabalhos I/2715 - Dividindo os Trabalhos I.layout
+Exercises-Beecrowd/2718 - Luzes de Natal/2718 - Luzes de Natal.cbp
+Exercises-Beecrowd/2718 - Luzes de Natal/2718 - Luzes de Natal.depend
+Exercises-Beecrowd/2718 - Luzes de Natal/2718 - Luzes de Natal.layout
+Exercises-Beecrowd/2724 - Ajude Patatatitu/2724 - Ajude Patatatitu.cbp
+Exercises-Beecrowd/2724 - Ajude Patatatitu/2724 - Ajude Patatatitu.depend
+Exercises-Beecrowd/2724 - Ajude Patatatitu/2724 - Ajude Patatatitu.layout
+Exercises-Beecrowd/2748 - Saida 2/2748 - Saida 2.cbp
+Exercises-Beecrowd/2748 - Saida 2/2748 - Saida 2.depend
+Exercises-Beecrowd/2748 - Saida 2/2748 - Saida 2.layout
+Exercises-Beecrowd/2749 - Saida 3/2749 - Saida 3.cbp
+Exercises-Beecrowd/2749 - Saida 3/2749 - Saida 3.depend
+Exercises-Beecrowd/2749 - Saida 3/2749 - Saida 3.layout
+Exercises-Beecrowd/2727 - Codigo Secreto/2727 - Codigo Secreto.cbp
+Exercises-Beecrowd/2727 - Codigo Secreto/2727 - Codigo Secreto.depend
+Exercises-Beecrowd/2727 - Codigo Secreto/2727 - Codigo Secreto.layout
+Exercises-Beecrowd/2750 - Saida 4/2750 - Saida 4.cbp
+Exercises-Beecrowd/2750 - Saida 4/2750 - Saida 4.depend
+Exercises-Beecrowd/2750 - Saida 4/2750 - Saida 4.layout
+Exercises-Beecrowd/2752 - Saida 6/2752 - Saida 6.cbp
+Exercises-Beecrowd/2752 - Saida 6/2752 - Saida 6.layout
+Exercises-Beecrowd/2753 - Saida 7/2753 - Saida 7.cbp
+Exercises-Beecrowd/2753 - Saida 7/2753 - Saida 7.depend
+Exercises-Beecrowd/2753 - Saida 7/2753 - Saida 7.layout
+Exercises-Beecrowd/2754 - Saida 8/2754 - Saida 8.cbp
+Exercises-Beecrowd/2754 - Saida 8/2754 - Saida 8.depend
+Exercises-Beecrowd/2754 - Saida 8/2754 - Saida 8.layout
+Exercises-Beecrowd/2721 - Indecisao das Renas/2721 - Indecisao das Renas.cbp
+Exercises-Beecrowd/2721 - Indecisao das Renas/2721 - Indecisao das Renas.layout
+Exercises-Beecrowd/2721 - Indecisao das Renas/2721 - Indecisao das Renas.depend
+Exercises-Beecrowd/2755 - Saida 9/2755 - Saida 9.cbp
+Exercises-Beecrowd/2755 - Saida 9/2755 - Saida 9.depend
+Exercises-Beecrowd/2755 - Saida 9/2755 - Saida 9.layout
+Exercises-Beecrowd/2756 - Saida 10/2756 - Saida 10.cbp
+Exercises-Beecrowd/2756 - Saida 10/2756 - Saida 10.depend
+Exercises-Beecrowd/2756 - Saida 10/2756 - Saida 10.layout
+Exercises-Beecrowd/2757 - Entrada e Saida de Numeros Inteiros/2757 - Entrada e Saida de Numeros Inteiros.cbp
+Exercises-Beecrowd/2757 - Entrada e Saida de Numeros Inteiros/2757 - Entrada e Saida de Numeros Inteiros.layout
+Exercises-Beecrowd/2757 - Entrada e Saida de Numeros Inteiros/2757 - Entrada e Saida de Numeros Inteiros.depend
+Exercises-Beecrowd/2758 - Entrada e Saida de Numeros Reais/2758 - Entrada e Saida de Numeros Reais.cbp
+Exercises-Beecrowd/2758 - Entrada e Saida de Numeros Reais/2758 - Entrada e Saida de Numeros Reais.depend
+Exercises-Beecrowd/2758 - Entrada e Saida de Numeros Reais/2758 - Entrada e Saida de Numeros Reais.layout
+Exercises-Beecrowd/2759 - Entrada e Saida de Caracter/2759 - Entrada e Saida de Caracter.cbp
+Exercises-Beecrowd/2759 - Entrada e Saida de Caracter/2759 - Entrada e Saida de Caracter.depend
+Exercises-Beecrowd/2759 - Entrada e Saida de Caracter/2759 - Entrada e Saida de Caracter.layout
+Exercises-Beecrowd/2763 - Entrada e Saida CPF/2763 - Entrada e Saida CPF.cbp
+Exercises-Beecrowd/2763 - Entrada e Saida CPF/2763 - Entrada e Saida CPF.depend
+Exercises-Beecrowd/2763 - Entrada e Saida CPF/2763 - Entrada e Saida CPF.layout
+Exercises-Beecrowd/2760 - Entrada e Saida de String/2760 - Entrada e Saida de String.cbp
+Exercises-Beecrowd/2760 - Entrada e Saida de String/2760 - Entrada e Saida de String.depend
+Exercises-Beecrowd/2760 - Entrada e Saida de String/2760 - Entrada e Saida de String.layout
+Exercises-Beecrowd/2761 - Entrada e Saida de Varios Tipos/2761 - Entrada e Saida de Varios Tipos.cbp
+Exercises-Beecrowd/2761 - Entrada e Saida de Varios Tipos/2761 - Entrada e Saida de Varios Tipos.depend
+Exercises-Beecrowd/2761 - Entrada e Saida de Varios Tipos/2761 - Entrada e Saida de Varios Tipos.layout
+Exercises-Beecrowd/2762 - Entrada e Saida 6/2762 - Entrada e Saida 6.cbp
+Exercises-Beecrowd/2762 - Entrada e Saida 6/2762 - Entrada e Saida 6.layout
+Exercises-Beecrowd/2764 - Entrada e Saida de Data/2764 - Entrada e Saida de Data.cbp
+Exercises-Beecrowd/2764 - Entrada e Saida de Data/2764 - Entrada e Saida de Data.depend
+Exercises-Beecrowd/2764 - Entrada e Saida de Data/2764 - Entrada e Saida de Data.layout
+Exercises-Beecrowd/2765 - Entrada e Saida com Virgula/2765 - Entrada e Saida com Virgula.cbp
+Exercises-Beecrowd/2765 - Entrada e Saida com Virgula/2765 - Entrada e Saida com Virgula.depend
+Exercises-Beecrowd/2765 - Entrada e Saida com Virgula/2765 - Entrada e Saida com Virgula.layout
+Exercises-Beecrowd/2766 - Entrada e Saida Lendo e Pulando Nomes/2766 - Entrada e Saida Lendo e Pulando Nomes.cbp
+Exercises-Beecrowd/2766 - Entrada e Saida Lendo e Pulando Nomes/2766 - Entrada e Saida Lendo e Pulando Nomes.layout
+Exercises-Beecrowd/2769 - Linha de Montagem/2769 - Linha de Montagem.cbp
+Exercises-Beecrowd/2769 - Linha de Montagem/2769 - Linha de Montagem.layout
+Exercises-Beecrowd/2769 - Linha de Montagem/2769 - Linha de Montagem.depend
+Exercises-Beecrowd/2770 - Tamanho da Placa/2770 - Tamanho da Placa.cbp
+Exercises-Beecrowd/2770 - Tamanho da Placa/2770 - Tamanho da Placa.layout
+Exercises-Beecrowd/2779 - Album da Copa/2779 - Album da Copa.layout
+Exercises-Beecrowd/2779 - Album da Copa/2779 - Album da Copa.cbp
+Exercises-Beecrowd/2779 - Album da Copa/2779 - Album da Copa.depend
+Exercises-Beecrowd/2774 - Precisao do Sensor/2774 - Precisao do Sensor.cbp
+Exercises-Beecrowd/2774 - Precisao do Sensor/2774 - Precisao do Sensor.layout
+Exercises-Beecrowd/2780 - Basquete de Robos/2780 - Basquete de Robos.cbp
+Exercises-Beecrowd/2780 - Basquete de Robos/2780 - Basquete de Robos.depend
+Exercises-Beecrowd/2780 - Basquete de Robos/2780 - Basquete de Robos.layout
+Exercises-Beecrowd/2774 - Precisao do Sensor/2774 - Precisao do Sensor.depend
+Exercises-Beecrowd/2775 - Preparando a Producao/2775 - Preparando a Producao.cbp
+Exercises-Beecrowd/2775 - Preparando a Producao/2775 - Preparando a Producao.layout
+Exercises-Beecrowd/2782 - Escadinha/2782 - Escadinha.cbp
+Exercises-Beecrowd/2782 - Escadinha/2782 - Escadinha.depend
+Exercises-Beecrowd/2782 - Escadinha/2782 - Escadinha.layout
+Exercises-Beecrowd/2783 - Figurinhas da Copa/2783 - Figurinhas da Copa.cbp
+Exercises-Beecrowd/2783 - Figurinhas da Copa/2783 - Figurinhas da Copa.layout
+Exercises-Beecrowd/2783 - Figurinhas da Copa/2783 - Figurinhas da Copa.depend
+Exercises-Beecrowd/2785 - Piramide/2785 - Piramide.cbp
+Exercises-Beecrowd/2785 - Piramide/2785 - Piramide.depend
+Exercises-Beecrowd/2785 - Piramide/2785 - Piramide.layout
+Exercises-Beecrowd/2786 - Piso da Escola/2786 - Piso da Escola.cbp
+Exercises-Beecrowd/2786 - Piso da Escola/2786 - Piso da Escola.depend
+Exercises-Beecrowd/2786 - Piso da Escola/2786 - Piso da Escola.layout
+Exercises-Beecrowd/2787 - Xadrez/2787 - Xadrez.cbp
+Exercises-Beecrowd/2787 - Xadrez/2787 - Xadrez.depend
+Exercises-Beecrowd/2787 - Xadrez/2787 - Xadrez.layout
+Exercises-Beecrowd/2791 - Feijao/2791 - Feijao.cbp
+Exercises-Beecrowd/2791 - Feijao/2791 - Feijao.layout
+Exercises-Beecrowd/2791 - Feijao/2791 - Feijao.depend
+Exercises-Beecrowd/2802 - Dividindo Circulos/2802 - Dividindo Circulos.cbp
+Exercises-Beecrowd/2802 - Dividindo Circulos/2802 - Dividindo Circulos.depend
+Exercises-Beecrowd/2802 - Dividindo Circulos/2802 - Dividindo Circulos.layout
+Exercises-Beecrowd/2807 - Iccanobif/2807 - Iccanobif.cbp
+Exercises-Beecrowd/2807 - Iccanobif/2807 - Iccanobif.layout
+Exercises-Beecrowd/2807 - Iccanobif/2807 - Iccanobif.depend
+Exercises-Beecrowd/2808 - Mais Cavalos/2808 - Mais Cavalos.cbp
+Exercises-Beecrowd/2808 - Mais Cavalos/2808 - Mais Cavalos.depend
+Exercises-Beecrowd/2808 - Mais Cavalos/2808 - Mais Cavalos.layout
+Exercises-Beecrowd/2812 - Laercio/2812 - Laercio.cbp
+Exercises-Beecrowd/2812 - Laercio/2812 - Laercio.layout
+Exercises-Beecrowd/2813 - Evitando Chuva/2813 - Evitando Chuva.cbp
+Exercises-Beecrowd/2813 - Evitando Chuva/2813 - Evitando Chuva.layout
+Exercises-Beecrowd/2823 - Eearliest Deadline First/2823 - Eearliest Deadline First.cbp
+Exercises-Beecrowd/2823 - Eearliest Deadline First/2823 - Eearliest Deadline First.depend
+Exercises-Beecrowd/2823 - Eearliest Deadline First/2823 - Eearliest Deadline First.layout
+Exercises-Beecrowd/2826 - Lexico/2826 - Lexico.cbp
+Exercises-Beecrowd/2826 - Lexico/2826 - Lexico.layout
+Exercises-Beecrowd/2845 - Festa no Polo Norte/2845 - Festa no Polo Norte.layout
+Exercises-Beecrowd/2846 - Fibonot/2846 - Fibonot.cbp
+Exercises-Beecrowd/2846 - Fibonot/2846 - Fibonot.layout
+Exercises-Beecrowd/2846 - Fibonot/2846 - Fibonot.depend
+Exercises-Beecrowd/2850 - Papagaio Poliglota/2850 - Papagaio Poliglota.cbp
+Exercises-Beecrowd/2850 - Papagaio Poliglota/2850 - Papagaio Poliglota.layout
+Exercises-Beecrowd/2861 - A Saída/2861 - A Saída.cbp
+Exercises-Beecrowd/2861 - A Saída/2861 - A Saída.layout
+Exercises-Beecrowd/2862 - Inseto/2862 - Inseto.cbp
+Exercises-Beecrowd/2862 - Inseto/2862 - Inseto.layout
+Exercises-Beecrowd/2852 - Troca de Mensagens/2852 - Troca de Mensagens.cbp
+Exercises-Beecrowd/2852 - Troca de Mensagens/2852 - Troca de Mensagens.layout
+Exercises-Beecrowd/2863 - Umil Bolt/2863 - Umil Bolt.cbp
+Exercises-Beecrowd/2863 - Umil Bolt/2863 - Umil Bolt.depend
+Exercises-Beecrowd/2863 - Umil Bolt/main.cpp
+Exercises-Beecrowd/2867 - Digitos/2867 - Digitos.cbp
+Exercises-Beecrowd/2867 - Digitos/2867 - Digitos.depend
+Exercises-Beecrowd/2867 - Digitos/2867 - Digitos.layout
+Exercises-Beecrowd/2879 - Desvendando Monty Hall/2879 - Desvendando Monty Hall.cbp
+Exercises-Beecrowd/2879 - Desvendando Monty Hall/2879 - Desvendando Monty Hall.layout
+Exercises-Beecrowd/2879 - Desvendando Monty Hall/2879 - Desvendando Monty Hall.depend
+Exercises-Beecrowd/2896 - Aproveite a Oferta/2896 - Aproveite a Oferta.cbp
+Exercises-Beecrowd/2896 - Aproveite a Oferta/2896 - Aproveite a Oferta.layout
+Exercises-Beecrowd/2930 - TCC da Depressao Natalino/2930 - TCC da Depressao Natalino.cbp
+Exercises-Beecrowd/2930 - TCC da Depressao Natalino/2930 - TCC da Depressao Natalino.layout
+Exercises-Beecrowd/2930 - TCC da Depressao Natalino/2930 - TCC da Depressao Natalino.depend
+Exercises-Beecrowd/2936 - Quanta Mandioca/2936 - Quanta Mandioca.cbp
+Exercises-Beecrowd/2936 - Quanta Mandioca/2936 - Quanta Mandioca.layout
+Exercises-Beecrowd/2936 - Quanta Mandioca/2936 - Quanta Mandioca.depend
+Exercises-Beecrowd/2949 - A Sociedade do Anel/2949 - A Sociedade do Anel.cbp
+Exercises-Beecrowd/2949 - A Sociedade do Anel/2949 - A Sociedade do Anel.layout
+Exercises-Beecrowd/Atividade de treino/Atividade de treino.cbp
+Exercises-Beecrowd/Atividade de treino/Atividade de treino.depend
+Exercises-Beecrowd/Atividade de treino/Atividade de treino.layout
