@@ -171,6 +171,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
     while (!fronteira.empty())
     {
+        bool encontrado = false;
         shared_ptr<No> atual = fronteira.top();
         fronteira.pop();
 
@@ -220,6 +221,8 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
             }
         }
     }
+
+
 
 }
 
