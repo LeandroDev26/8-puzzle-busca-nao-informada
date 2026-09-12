@@ -213,6 +213,8 @@ int main()
     array<int, 9> inicio = {0,1, 2, 3, 4, 5, 6, 7, 8};
     array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
+    resolverBFS(inicio, objetivo);
+    resolverDFS(inicio, objetivo);
 
     return 0;
 }
