@@ -6,6 +6,8 @@ using namespace std;
 
 vector<array<int,9>> gerarSucessores(array<int,9> estado)
 {
+    vector<array<int,9>> sucessores;
+
 // encontrar a posição do 0
     int pos = -1;
     for (int i = 0; i < 9; i++)
@@ -23,7 +25,6 @@ vector<array<int,9>> gerarSucessores(array<int,9> estado)
     cout << "Zero esta na posicao " << pos
          << " (linha " << linha << ", coluna " << coluna << ")\n";
 
-    vector<array<int,9>> sucessores;
 
     if(linha > 0)
     {
