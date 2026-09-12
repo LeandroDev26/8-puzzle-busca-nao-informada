@@ -190,12 +190,12 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
             }
 
 
-                cout << "--- PASSO A PASSO ---\n";
-                for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
-                {
-                    cout << "Acao: " << (*it)->acao << "\n";
-                    imprimirEstado((*it)->estado);
-                }
+            cout << "--- PASSO A PASSO ---\n";
+            for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
+            {
+                cout << "Acao: " << (*it)->acao << "\n";
+                imprimirEstado((*it)->estado);
+            }
 
             break;
         }
@@ -211,10 +211,9 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
             if (visitados.find(chave_sucessor) == visitados.end())
             {
-                if(atual->profundidade +1 > 20 ){
 
-                }
                 visitados.insert(chave_sucessor);
+                if(atual->profundidade +1 > 20 )continue;
 
                 auto filho = make_shared<No>(No{estado_sucessor, atual, acao, atual->profundidade + 1});
                 fronteira.push(filho);
