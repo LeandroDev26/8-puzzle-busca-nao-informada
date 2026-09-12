@@ -178,11 +178,17 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo) {
                 rastreador = rastreador->pai;
             }
 
-            cout << "--- PASSO A PASSO ---\n";
+            if (atual->profundidade > 20) {
+                cout << "Caminho muito longo para imprimir (" << atual->profundidade << " passos)!\n";
+                cout << "busca sem sucesso:)\n";
+            } else {
+               cout << "--- PASSO A PASSO ---\n";
             for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it) {
                 cout << "Acao: " << (*it)->acao << "\n";
                 imprimirEstado((*it)->estado);
             }
+
+                   }
 
             break;
         }
@@ -210,8 +216,8 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo) {
 int main()
 {
 
-    array<int, 9> inicio = {0,1, 2, 3, 4, 5, 6, 7, 8};
-    array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
+   array<int, 9> inicio = {1, 2, 3, 4, 0, 5, 7, 8, 6};
+   array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
     resolverBFS(inicio, objetivo);
     resolverDFS(inicio, objetivo);
