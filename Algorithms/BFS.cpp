@@ -2,12 +2,16 @@
 #include <queue>
 #include <unordered_set>
 #include "nodes.cpp"
+#include "main.cpp"
+
 using namespace std;
 
 int main() {
     // grafo simples: cada número "gera" número+1 e número+2 como sucessores
     int inicio = 0;
     int objetivo = 5;
+
+    auto raiz = make_shared<No>(No{ {0,1,2,3,4,5,6,7,8}, nullptr, "vazio primeiro elemento", 0});
 
     queue<shared_ptr<No>> fronteira;
     unordered_set<int> visitados;

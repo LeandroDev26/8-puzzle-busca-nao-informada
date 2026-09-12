@@ -18,7 +18,7 @@ int main() {
 
     // reconstruir caminho subindo pelos pais
     vector<string> caminho;
-    shared_ptr<No>atual = neto;
+    shared_ptr<No> atual = neto;
     while (atual != nullptr) {
         caminho.push_back(atual->acao);
         atual = atual->pai;
