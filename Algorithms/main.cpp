@@ -110,8 +110,23 @@ int main()
         fronteira.pop();
 
         if (atual->estado == objetivo) {
-            cout << "Objetivo encontrado!\n";
-            break;
+         cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
+
+            vector<shared_ptr<No>> caminho_vitoria;
+            shared_ptr<No> rastreador = atual;
+
+            while (rastreador != nullptr) {
+                caminho_vitoria.push_back(rastreador);
+                rastreador = rastreador->pai;
+            }
+
+            cout << "--- PASSO A PASSO ---\n";
+            for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it) {
+                cout << "Acao: " << (*it)->acao << "\n";
+                imprimirEstado((*it)->estado);
+            }
+
+            break; // Encerra a busca
         }
 
         auto vizinhos = gerarSucessores(atual->estado);
