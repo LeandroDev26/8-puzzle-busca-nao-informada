@@ -92,9 +92,10 @@ void imprimirEstado(const array<int, 9>& estado)
 
 }
 
-void resolverBFS(array<int,9> inicio, array<int,9> objetivo) {
+void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
+{
     cout << "\n=== INICIANDO BUSCA EM LARGURA (BFS) ===\n";
- auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
+    auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
 
     queue<shared_ptr<No>> fronteira;
 
@@ -103,25 +104,29 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo) {
     fronteira.push(raiz);
     visitados.insert(paraChave(inicio));
 
-    while (!fronteira.empty()) {
+    while (!fronteira.empty())
+    {
         shared_ptr<No> atual = fronteira.front();
         fronteira.pop();
 
-        if (atual->estado == objetivo) {
-         cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
+        if (atual->estado == objetivo)
+        {
+            cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
 
-           cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
+            cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
 
             vector<shared_ptr<No>> caminho_vitoria;
             shared_ptr<No> rastreador = atual;
 
-            while (rastreador != nullptr) {
+            while (rastreador != nullptr)
+            {
                 caminho_vitoria.push_back(rastreador);
                 rastreador = rastreador->pai;
             }
 
             cout << "--- PASSO A PASSO ---\n";
-            for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it) {
+            for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
+            {
                 cout << "Acao: " << (*it)->acao << "\n";
                 imprimirEstado((*it)->estado);
             }
@@ -130,14 +135,16 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo) {
         }
 
         auto vizinhos = gerarSucessores(atual->estado);
-        for (auto& vizinho : vizinhos) {
+        for (auto& vizinho : vizinhos)
+        {
             array<int, 9> estado_sucessor = vizinho.first;
             string acao = vizinho.second;
 
             string chave_sucessor = paraChave(estado_sucessor);
 
 
-            if (visitados.find(chave_sucessor) == visitados.end()) {
+            if (visitados.find(chave_sucessor) == visitados.end())
+            {
                 visitados.insert(chave_sucessor);
 
                 auto filho = make_shared<No>(No{estado_sucessor, atual, acao, atual->profundidade + 1});
@@ -149,10 +156,11 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo) {
 
 
 
-void resolverDFS(array<int,9> inicio, array<int,9> objetivo) {
+void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
+{
     cout << "\n=== INICIANDO BUSCA EM PROFUNDIDADE (DFS) ===\n";
 
-     auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
+    auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
 
     stack<shared_ptr<No>> fronteira;
 
@@ -161,47 +169,56 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo) {
     fronteira.push(raiz);
     visitados.insert(paraChave(inicio));
 
-    while (!fronteira.empty()) {
+    while (!fronteira.empty())
+    {
         shared_ptr<No> atual = fronteira.top();
         fronteira.pop();
 
-        if (atual->estado == objetivo) {
-         cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
+        if (atual->estado == objetivo)
+        {
+            cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
 
-           cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
+            cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
 
             vector<shared_ptr<No>> caminho_vitoria;
             shared_ptr<No> rastreador = atual;
 
-            while (rastreador != nullptr) {
+            while (rastreador != nullptr)
+            {
                 caminho_vitoria.push_back(rastreador);
                 rastreador = rastreador->pai;
             }
 
-            if (atual->profundidade > 20) {
+            if (atual->profundidade > 20)
+            {
                 cout << "Caminho muito longo para imprimir (" << atual->profundidade << " passos)!\n";
                 cout << "busca sem sucesso:)\n";
-            } else {
-               cout << "--- PASSO A PASSO ---\n";
-            for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it) {
-                cout << "Acao: " << (*it)->acao << "\n";
-                imprimirEstado((*it)->estado);
             }
+            else
+            {
+                cout << "--- PASSO A PASSO ---\n";
+                for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
+                {
+                    cout << "Acao: " << (*it)->acao << "\n";
+                    imprimirEstado((*it)->estado);
+                }
 
-                   }
+            }
 
             break;
         }
 
         auto vizinhos = gerarSucessores(atual->estado);
-        for (auto& vizinho : vizinhos) {
+        for (auto& vizinho : vizinhos)
+        {
             array<int, 9> estado_sucessor = vizinho.first;
             string acao = vizinho.second;
 
             string chave_sucessor = paraChave(estado_sucessor);
 
 
-            if (visitados.find(chave_sucessor) == visitados.end()) {
+            if (visitados.find(chave_sucessor) == visitados.end())
+            {
                 visitados.insert(chave_sucessor);
 
                 auto filho = make_shared<No>(No{estado_sucessor, atual, acao, atual->profundidade + 1});
@@ -216,8 +233,8 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo) {
 int main()
 {
 
-   array<int, 9> inicio = {1, 2, 3, 4, 0, 5, 7, 8, 6};
-   array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
+    array<int, 9> inicio = {1, 2, 3, 4, 0, 5, 7, 8, 6};
+    array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
     resolverBFS(inicio, objetivo);
     resolverDFS(inicio, objetivo);
