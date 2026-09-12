@@ -189,21 +189,13 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
                 rastreador = rastreador->pai;
             }
 
-            if (atual->profundidade > 20)
-            {
-                cout << "Caminho muito longo para imprimir (" << atual->profundidade << " passos)!\n";
-                cout << "busca sem sucesso:)\n";
-            }
-            else
-            {
+
                 cout << "--- PASSO A PASSO ---\n";
                 for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
                 {
                     cout << "Acao: " << (*it)->acao << "\n";
                     imprimirEstado((*it)->estado);
                 }
-
-            }
 
             break;
         }
@@ -219,6 +211,9 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
             if (visitados.find(chave_sucessor) == visitados.end())
             {
+                if(atual->profundidade +1 > 20 ){
+
+                }
                 visitados.insert(chave_sucessor);
 
                 auto filho = make_shared<No>(No{estado_sucessor, atual, acao, atual->profundidade + 1});
