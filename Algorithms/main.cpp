@@ -88,15 +88,12 @@ void imprimirEstado(const array<int, 9>& estado)
         if (i % 3 == 2) cout << "\n";
     }
     cout << "------\n";
+
 }
 
-int main()
-{
-
-    array<int, 9> inicio = {0,1, 2, 3, 4, 5, 6, 7, 8};
-    array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
-
-    auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
+void resolverBFS(array<int,9> inicio, array<int,9> objetivo) {
+    cout << "\n=== INICIANDO BUSCA EM LARGURA (BFS) ===\n";
+ auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
 
     queue<shared_ptr<No>> fronteira;
 
@@ -147,5 +144,22 @@ int main()
             }
         }
     }
+}
+
+
+
+void resolverDFS(array<int,9> inicio, array<int,9> objetivo) {
+    cout << "\n=== INICIANDO BUSCA EM PROFUNDIDADE (DFS) ===\n";
+    // Cole a mesma lógica, mas troque a estrutura de dados!
+}
+
+
+int main()
+{
+
+    array<int, 9> inicio = {0,1, 2, 3, 4, 5, 6, 7, 8};
+    array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
+
+
     return 0;
 }
