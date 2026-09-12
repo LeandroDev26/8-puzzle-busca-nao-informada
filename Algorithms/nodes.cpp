@@ -12,9 +12,9 @@ struct No {
 };
 
 int main() {
-    auto raiz = make_shared<No>(No{0, nullptr, "INICIO", 0});
-    auto filho = make_shared<No>(No{1, raiz, "PASSO1", 1});
-    auto neto  = make_shared<No>(No{2, filho, "PASSO2", 2});
+    auto raiz = make_shared<No>(No{ {0,1,2,3,4,5,6,7,8}, nullptr, "vazio primeiro elemento", 0});
+    auto filho = make_shared<No>(No{{1,2,3,4,0,5,6,7,8}, raiz, "vazio elemento centro", 1});
+    auto neto  = make_shared<No>(No{{1,2,3,4,5,6,0,7,8}, filho, "vazio setimo elemento", 2});
 
     // reconstruir caminho subindo pelos pais
     vector<string> caminho;
