@@ -168,17 +168,18 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
     fronteira.push(raiz);
     visitados.insert(paraChave(inicio));
+    bool encontrado = false;
 
     while (!fronteira.empty())
     {
-        bool encontrado = false;
         shared_ptr<No> atual = fronteira.top();
         fronteira.pop();
+
 
         if (atual->estado == objetivo)
         {
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
-
+            encontrado = true;
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
 
             vector<shared_ptr<No>> caminho_vitoria;
@@ -222,7 +223,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
         }
     }
 
-
+    if(!encontrado){cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";}
 
 }
 
