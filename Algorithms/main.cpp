@@ -7,6 +7,7 @@
 #include <string>
 #include <utility>
 #include <stack>
+#include <algorithm>
 
 using namespace std;
 
@@ -104,10 +105,12 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
     fronteira.push(raiz);
     visitados.insert(paraChave(inicio));
     int nodesExpandidos = 0;
+    auto pico = fronteira.size();
 
     while (!fronteira.empty())
     {
         shared_ptr<No> atual = fronteira.front();
+        pico = max(pico, fronteira.size());
         fronteira.pop();
 
         if (atual->estado == objetivo)
@@ -173,10 +176,12 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
     visitados.insert(paraChave(inicio));
     bool encontrado = false;
     int nodesExpandidos = 0;
+    auto pico = fronteira.size();
 
     while (!fronteira.empty())
     {
         shared_ptr<No> atual = fronteira.top();
+        pico = max(pico, fronteira.size());
         fronteira.pop();
 
 
