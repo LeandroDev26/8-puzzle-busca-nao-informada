@@ -172,7 +172,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
     {
         auto fim_tempo = chrono::high_resolution_clock::now();
         auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
-        cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";
+        cout << "Busca esgotada nao existe nenhuma solucao possivel!o algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
         cout<<"Quantidade de nos expandidos(visitados):"<< setw(8) << nodesExpandidos << "\n";
         cout << "Pico da fronteira: " << setw(6) << pico << "\n";
         cout << "Tempo:             " << setw(5) << duracao.count() << " ms\n";
