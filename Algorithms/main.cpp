@@ -97,6 +97,7 @@ void imprimirEstado(const array<int, 9>& estado)
 
 void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 {
+    cout<<"\n";
     cout << "\n=== INICIANDO BUSCA EM LARGURA (BFS) ===\n";
     auto inicio_tempo = chrono::high_resolution_clock::now();
     auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
@@ -139,6 +140,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
                 rastreador = rastreador->pai;
             }
 
+            cout<<"\n";
             cout << "--- PASSO A PASSO ---\n";
             for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
             {
@@ -184,6 +186,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 
 void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 {
+    cout<<"\n";
     cout << "\n=== INICIANDO BUSCA EM PROFUNDIDADE (DFS) ===\n";
 
     auto inicio_tempo = chrono::high_resolution_clock::now();
@@ -228,7 +231,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
                 rastreador = rastreador->pai;
             }
 
-
+            cout<<"\n";
             cout << "--- PASSO A PASSO ---\n";
             for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
             {
