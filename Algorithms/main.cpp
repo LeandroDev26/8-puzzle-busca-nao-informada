@@ -103,6 +103,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 
     fronteira.push(raiz);
     visitados.insert(paraChave(inicio));
+    int nodesExpandidos = 0;
 
     while (!fronteira.empty())
     {
@@ -135,6 +136,8 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
         }
 
         auto vizinhos = gerarSucessores(atual->estado);
+        int nodesExpandidos = 0;
+
         for (auto& vizinho : vizinhos)
         {
             array<int, 9> estado_sucessor = vizinho.first;
