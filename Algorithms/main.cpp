@@ -117,6 +117,9 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 
         if (atual->estado == objetivo)
         {
+            auto fim_tempo = chrono::high_resolution_clock::now();
+            auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
+
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
 
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
@@ -159,8 +162,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
             }
         }
     }
-    auto fim_tempo = chrono::high_resolution_clock::now();
-    auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
+
 }
 
 
