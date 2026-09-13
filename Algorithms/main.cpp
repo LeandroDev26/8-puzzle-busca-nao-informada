@@ -169,6 +169,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
     fronteira.push(raiz);
     visitados.insert(paraChave(inicio));
     bool encontrado = false;
+    int nodesExpandidos = 0;
 
     while (!fronteira.empty())
     {
@@ -203,6 +204,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
         }
 
         auto vizinhos = gerarSucessores(atual->estado);
+        nodesExpandidos++;
         for (auto& vizinho : vizinhos)
         {
             array<int, 9> estado_sucessor = vizinho.first;
@@ -215,6 +217,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
             {
 
                 visitados.insert(chave_sucessor);
+
                 if(atual->profundidade +1 > 20 )continue;
 
                 auto filho = make_shared<No>(No{estado_sucessor, atual, acao, atual->profundidade + 1});
