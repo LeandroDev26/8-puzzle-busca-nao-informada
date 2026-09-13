@@ -126,9 +126,9 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
 
-            cout<<"Quantidade de nos expandidos(visitados):"<< setw(8) << nodesExpandidos << "\n";
-            cout << "Pico da fronteira: " << setw(6) << pico << "\n";
-            cout << "Tempo:             " << setw(5) << duracao.count() << " ms\n";
+            cout<<"Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
+            cout << "Pico da fronteira: " << pico << "\n";
+            cout << "Tempo: " << duracao.count() << " ms\n";
 
             vector<shared_ptr<No>> caminho_vitoria;
             shared_ptr<No> rastreador = atual;
@@ -173,9 +173,9 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
         auto fim_tempo = chrono::high_resolution_clock::now();
         auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
         cout << "Busca esgotada nao existe nenhuma solucao possivel!o algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
-        cout<< "Quantidade de nos expandidos(visitados):" << setw(8) << nodesExpandidos << "\n";
-        cout << "Pico da fronteira: " << setw(6) << pico << "\n";
-        cout << "Tempo:             " << setw(5) << duracao.count() << " ms\n";
+        cout<< "Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
+        cout << "Pico da fronteira: " << pico << "\n";
+        cout << "Tempo: " << duracao.count() << " ms\n";
     }
 
 }
@@ -215,9 +215,9 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
-            cout<< "Quantidade de nos expandidos(visitados):" << setw(8) << nodesExpandidos << "\n";
-            cout << "Pico da fronteira: " << setw(6) << pico << "\n";
-            cout << "Tempo:             " << setw(5) << duracao.count() << " ms\n";
+            cout<< "Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
+            cout << "Pico da fronteira: " << pico << "\n";
+            cout << "Tempo: " << duracao.count() << " ms\n";
 
             vector<shared_ptr<No>> caminho_vitoria;
             shared_ptr<No> rastreador = atual;
@@ -267,9 +267,9 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
         auto fim_tempo = chrono::high_resolution_clock::now();
         auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
         cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";
-        cout<<"Quantidade de nos expandidos(visitados):"<< setw(8) << nodesExpandidos << "\n";
-        cout << "Pico da fronteira: " << setw(6) << pico << "\n";
-        cout << "Tempo:             " << setw(5) << duracao.count() << " ms\n";
+        cout<<"Quantidade de nos expandidos(visitados):"<< nodesExpandidos << "\n";
+        cout << "Pico da fronteira: " << pico << "\n";
+        cout << "Tempo: " << duracao.count() << " ms\n";
     }
 
 }
