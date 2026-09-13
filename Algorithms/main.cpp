@@ -8,6 +8,7 @@
 #include <utility>
 #include <stack>
 #include <algorithm>
+#include <chrono>
 
 using namespace std;
 
@@ -96,6 +97,7 @@ void imprimirEstado(const array<int, 9>& estado)
 void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 {
     cout << "\n=== INICIANDO BUSCA EM LARGURA (BFS) ===\n";
+    auto inicio_tempo = chrono::high_resolution_clock::now();
     auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
 
     queue<shared_ptr<No>> fronteira;
@@ -157,6 +159,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
             }
         }
     }
+    auto fim__tempo = chrono::high_resolution_clock::now();
 }
 
 
@@ -233,7 +236,10 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
         }
     }
 
-    if(!encontrado){cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";}
+    if(!encontrado)
+    {
+        cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";
+    }
 
 }
 
