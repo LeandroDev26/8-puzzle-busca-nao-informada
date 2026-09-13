@@ -167,6 +167,8 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
     {
         auto fim_tempo = chrono::high_resolution_clock::now();
         auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
+        cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";
+
     }
 
 }
@@ -176,6 +178,8 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 {
     cout << "\n=== INICIANDO BUSCA EM PROFUNDIDADE (DFS) ===\n";
+
+    auto inicio_tempo = chrono::high_resolution_clock::now();
 
     auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
 
@@ -198,6 +202,9 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
         if (atual->estado == objetivo)
         {
+            auto fim_tempo = chrono::high_resolution_clock::now();
+            auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
+
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
             encontrado = true;
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
@@ -247,6 +254,8 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
     if(!encontrado)
     {
+        auto fim_tempo = chrono::high_resolution_clock::now();
+        auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
         cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";
     }
 
