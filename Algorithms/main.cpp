@@ -105,6 +105,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
     unordered_set<string> visitados;
 
     fronteira.push(raiz);
+    bool encontrado = false;
     visitados.insert(paraChave(inicio));
     int nodesExpandidos = 0;
     auto pico = fronteira.size();
@@ -121,7 +122,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
             auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
 
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
-
+            encontrado = true ;
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
 
             vector<shared_ptr<No>> caminho_vitoria;
@@ -161,6 +162,11 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
                 fronteira.push(filho);
             }
         }
+    }
+    if(!encontrado)
+    {
+        auto fim_tempo = chrono::high_resolution_clock::now();
+        auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
     }
 
 }
