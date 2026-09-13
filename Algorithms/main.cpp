@@ -97,7 +97,6 @@ void imprimirEstado(const array<int, 9>& estado)
 
 void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 {
-    cout<<"\n";
     cout << "\n=== INICIANDO BUSCA EM LARGURA (BFS) ===\n";
     auto inicio_tempo = chrono::high_resolution_clock::now();
     auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
@@ -124,8 +123,8 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
             auto fim_tempo = chrono::high_resolution_clock::now();
             auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
 
-            cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
-            cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
+            cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n";
+            cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n";
 
             cout<<"Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
             cout << "Pico da fronteira: " << pico << "\n";
@@ -186,7 +185,6 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 
 void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 {
-    cout<<"\n";
     cout << "\n=== INICIANDO BUSCA EM PROFUNDIDADE (DFS) ===\n";
 
     auto inicio_tempo = chrono::high_resolution_clock::now();
@@ -216,8 +214,8 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
             auto fim_tempo = chrono::high_resolution_clock::now();
             auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
 
-            cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n\n";
-            cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
+            cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n";
+            cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n";
             cout<< "Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
             cout << "Pico da fronteira: " << pico << "\n";
             cout << "Tempo: " << duracao.count() << " ms\n";
