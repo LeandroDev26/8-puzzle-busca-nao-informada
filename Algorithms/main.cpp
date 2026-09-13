@@ -159,7 +159,8 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
             }
         }
     }
-    auto fim__tempo = chrono::high_resolution_clock::now();
+    auto fim_tempo = chrono::high_resolution_clock::now();
+    auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
 }
 
 
