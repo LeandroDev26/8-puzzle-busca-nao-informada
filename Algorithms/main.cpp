@@ -97,7 +97,8 @@ void imprimirEstado(const array<int, 9>& estado)
 
 void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 {
-    cout << "\n=== INICIANDO BUSCA EM LARGURA (BFS) ===\n";
+    cout << "=== INICIANDO BUSCA EM LARGURA (BFS) ===\n";
+    cout<< "\n";
     auto inicio_tempo = chrono::high_resolution_clock::now();
     auto raiz = make_shared<No>(No{inicio, nullptr, "Estado Inicial", 0});
 
@@ -126,7 +127,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n";
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n";
 
-            cout<<"Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
+            cout<<"Quantidade de nos expandidos(visitados): " << nodesExpandidos << "\n";
             cout << "Pico da fronteira: " << pico << "\n";
             cout << "Tempo: " << duracao.count() << " ms\n";
 
@@ -176,7 +177,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
         auto fim_tempo = chrono::high_resolution_clock::now();
         auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
         cout << "Busca esgotada nao existe nenhuma solucao possivel!o algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n\n";
-        cout<< "Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
+        cout<< "Quantidade de nos expandidos(visitados): " << nodesExpandidos << "\n";
         cout << "Pico da fronteira: " << pico << "\n";
         cout << "Tempo: " << duracao.count() << " ms\n";
     }
@@ -188,6 +189,7 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 {
     cout << "\n=== INICIANDO BUSCA EM PROFUNDIDADE (DFS) ===\n";
+    cout<< "\n";
 
     auto inicio_tempo = chrono::high_resolution_clock::now();
 
@@ -218,7 +220,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
             cout << "Objetivo encontrado em " << atual->profundidade << " jogadas!\n";
             cout << "O algoritmo vasculhou " << visitados.size() << " tabuleiros diferentes.\n";
-            cout<< "Quantidade de nos expandidos(visitados):" << nodesExpandidos << "\n";
+            cout<< "Quantidade de nos expandidos(visitados): " << nodesExpandidos << "\n";
             cout << "Pico da fronteira: " << pico << "\n";
             cout << "Tempo: " << duracao.count() << " ms\n";
 
@@ -272,7 +274,7 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
         auto fim_tempo = chrono::high_resolution_clock::now();
         auto duracao = chrono::duration_cast<chrono::milliseconds>(fim_tempo - inicio_tempo);
         cout << "Busca esgotada sem encontrar solução dentro do limite de profundidade!\n";
-        cout<<"Quantidade de nos expandidos(visitados):"<< nodesExpandidos << "\n";
+        cout<<"Quantidade de nos expandidos(visitados): "<< nodesExpandidos << "\n";
         cout << "Pico da fronteira: " << pico << "\n";
         cout << "Tempo: " << duracao.count() << " ms\n";
     }
@@ -283,7 +285,11 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 int main()
 {
     // caso1 (trivial)
-    array<int, 9> inicio = {1, 2, 3, 4, 5, 0, 7, 8, 6};
+    //array<int, 9> inicio = {1, 2, 3, 4, 5, 0, 7, 8, 6};
+    //caso2(medio)
+    //array<int, 9> inicio = {1, 2, 3, 0, 4, 6, 7, 5, 8};
+    //caso(complexo)
+    array<int, 9> inicio = {0, 1, 3, 4, 2, 5, 7, 8, 6};
     array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
     resolverBFS(inicio, objetivo);
