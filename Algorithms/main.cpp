@@ -141,6 +141,8 @@ void resolverBFS(array<int,9> inicio, array<int,9> objetivo)
 
             cout<<"\n";
             cout << "--- PASSO A PASSO ---\n";
+            cout<<"\n";
+
             for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
             {
                 cout << "Acao: " << (*it)->acao << "\n";
@@ -231,6 +233,8 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
             cout<<"\n";
             cout << "--- PASSO A PASSO ---\n";
+            cout<<"\n";
+
             for (auto it = caminho_vitoria.rbegin(); it != caminho_vitoria.rend(); ++it)
             {
                 cout << "Acao: " << (*it)->acao << "\n";
