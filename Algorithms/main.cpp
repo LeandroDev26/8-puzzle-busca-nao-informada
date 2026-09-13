@@ -277,8 +277,8 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 
 int main()
 {
-
-    array<int, 9> inicio = {1, 2, 3, 4, 0, 5, 7, 8, 6};
+    // caso1 (trivial)
+    array<int, 9> inicio = {1, 2, 3, 4, 5, 0, 7, 8, 6};
     array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
     resolverBFS(inicio, objetivo);
