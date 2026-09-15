@@ -285,19 +285,21 @@ void resolverDFS(array<int,9> inicio, array<int,9> objetivo)
 int main()
 {
     // caso1 (trivial)
-    //array<int, 9> inicio = {1, 2, 3, 4, 5, 0, 7, 8, 6};
+    array<int, 9> inicio = {1, 2, 3, 4, 5, 0, 7, 8, 6};
     //caso2(medio)
     //array<int, 9> inicio = {1, 2, 3, 0, 4, 6, 7, 5, 8};
     //caso(complexo)
     //array<int, 9> inicio = {0, 1, 3, 4, 2, 5, 7, 8, 6};
 
-    // entrada de tabuleiro dinamica
+    /* entrada de tabuleiro dinamica
+
     array<int, 9> inicio;
     for(int i = 0 ; i < 9; i++){
      cout<<"Digite o "<< i+1 << "o elmento do tabuleiro!"<<endl;
      cin>> inicio[i];
 
     }
+    */
     array<int, 9> objetivo = {1, 2, 3, 4, 5, 6, 7, 8, 0};
 
     resolverBFS(inicio, objetivo);
