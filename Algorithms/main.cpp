@@ -294,7 +294,7 @@ int main()
     // entrada de tabuleiro dinamica
     array<int, 9> inicio;
     for(int i = 0 ; i < 9; i++){
-     cout<<"Digite o "<< i << "o elmento do tabuleiro!"<<endl;
+     cout<<"Digite o "<< i+1 << "o elmento do tabuleiro!"<<endl;
      cin>> inicio[i];
 
     }
